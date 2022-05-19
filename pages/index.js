@@ -11,6 +11,7 @@ import Slider3 from "../element/slider-3";
 import Testimonial2 from "../element/testimonial-2";
 import Footer2 from "../layout/footer-2";
 import Header2 from "./../layout/header-2";
+import Footer from "./../layout/footer";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Image from "next/image";
@@ -47,7 +48,7 @@ function Index2() {
 <ReportSection />
         {/* <Testimonial2 /> */}
         <Blog2 />
-        <div className="pop">
+        {/* <div className="pop">
         <h1>Popup/Modal Windows without JavaScript</h1>
 <div class="box">
 	<a class="button" href="#popup1">Let me Pop up</a>
@@ -62,10 +63,11 @@ function Index2() {
 		</div>
 	</div>
 </div>
-        </div>
+        </div> */}
         {/* <Clients2 /> */}
       </div>
-      <Footer2 />
+      {/* <Footer2 /> */}
+      <Footer/>
     </>
   );
 }

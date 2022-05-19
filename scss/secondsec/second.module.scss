@@ -2,11 +2,19 @@
     background-color: #000;
     margin-top: 0px;
 }
+.ssldr{
+  align-items: center;
+  display:flex;
+  position:relative; 
+  // zIndex:9;
+}
 .secondsecond{
     width: 100%;
     margin: 0 auto;
+    height: 90vh;
 }
-.headingtext {
+
+.headingtext {  
     vertical-align: middle;
     margin: 100px 0px;
     font-family: "Source Sans Pro", sans-serif;
@@ -15,8 +23,8 @@
         background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        letter-spacing: 0px;
-        font-size: 52px;
+        letter-spacing: .10px;
+        // font-size: 48px!important;
     }
     p{
         margin: 30px 0px 50px;
@@ -60,7 +68,7 @@
     border: none;
     color: #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px 25px;
     transition: all 0.5s;
     cursor: pointer;
@@ -93,3 +101,7 @@
       right: 5px;
       margin-top: -4px;
   }
+  @media only screen and (max-width: 767px){
+  .headingtext h2{
+    font-size: 36px;
+  } }

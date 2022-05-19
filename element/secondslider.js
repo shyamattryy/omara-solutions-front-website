@@ -6,7 +6,7 @@ import Image from "next/image";
 function SecondSlider(){
     return(
 <div>
-<Carousel className="homeSlider secSlider" >
+<Carousel  autoPlay={true} infiniteLoop={true} interval={4000} slidesToScroll={1} className="homeSlider secSlider" >
                     <div className="slider-image" style={{
                     backgroundImage:"url('/images/background/cp-homepage-thumb.png')",
                     width: "100%",backgroundRepeat: "no-repeat",backgroundSize: "cover" }} >

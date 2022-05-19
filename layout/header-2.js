@@ -96,9 +96,9 @@ function Header2() {
 
                                 <ul className="nav navbar-nav navbar">
                                    
-									<li><Link href="/"><a>SERVICES</a></Link><i className="fa fa-chevron-down"></i>
+									<li><Link href="/"><a>Services</a></Link><i className="fa fa-chevron-down"></i>
                                     <ul className="sub-menu">
-											<li><Link href="/about-us-2"><a>IT Development</a></Link></li>
+											<li><Link href="/about-us-2"><a>It Development</a></Link></li>
 											<li><Link href="/faq-2"><a>Voice Blend Process</a></Link></li>
 											<li><Link href="/pricing-table-2"><a>Hire Developers</a></Link></li>
 											<li><Link href="/team-2"><a>Resource Management</a></Link></li>
@@ -113,7 +113,7 @@ function Header2() {
                                         }`}
                                     >
                                         <a onClick={() => setOpen("about")}>
-                                            <span>OUR PRODUCTS</span>
+                                            <span>Our Products</span>
                                             <i className="fa fa-chevron-down"></i>
                                         </a>
                                         <ul className="sub-menu">

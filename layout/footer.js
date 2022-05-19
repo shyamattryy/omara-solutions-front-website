@@ -4,101 +4,70 @@ function Footer() {
   return (
     <>
       {/* <!-- Footer --> */}
-    <footer className="site-footer style-1" id="footer" style={{"backgroundImage":"url(images/background/bg10.png)"}}>
+    <footer className="site-footer style-1" id="footer" style={{"background":"linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35)"}}>
 		<div className="footer-top">
             <div className="container">
 				<div className="footer-info wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
-					<div className="row align-items-center">
-						<div className="col-xl-6 col-md-4">
-							<div className="footer-logo">
-								<a href="/"><img src="images/logo-white.png" alt=""/></a> 
-							</div>
-						</div>
-						<div className="col-xl-3 col-md-4 col-sm-6">
-							<div className="icon-bx-wraper left m-b10">
-								<div className="icon-lg"> 
-									<Link href="#">
-										<a className="icon-cell">
-											<i className="flaticon-email"></i>
-										</a> 
-									</Link>	
-								</div>
-								<div className="icon-content">
-									<p>+91 987-654-3210<br/>info@example.com</p>
-								</div>
-							</div>
-						</div>
-						<div className="col-xl-3 col-md-4 col-sm-6">
-							<div className="icon-bx-wraper left m-b10">
-								<div className="icon-lg"> 
-									<Link href="#">
-										<a className="icon-cell">
-											<i className="flaticon-location"></i>
-										</a>
-									</Link>	
-								</div>
-								<div className="icon-content">
-									<p>Marmora Road Chi Minh City, Vietnam</p>
-								</div>
-							</div>
-						</div>
+					<div className="row">
+						
+						<div class="col-md-8">
+                        <div class="footer-title1">
+                            Sustainability
+                            <br/>Highlights
+                        </div>
+                        <div class="footer-txt-1">
+                            Awarded 'Gold CSR Rating - 2021' by EcoVadis
+                        </div>
+                        <a href="#" class="linkButtun-white"><span>Know More</span></a>
+                    </div>
+					<div class="col-md-4 float-r1-c2">
+                        <div class="ftt-col2-title">
+                            Energy Saved
+                        </div>
+                        <div class="fttr-img">
+                            <div class="enerrg clssSavings">16.73</div>
+                            <div class="kwkw">kW</div>
+                        </div>
+                        <div class="footerr-subtext">
+                            We are one of the world's first website to run on Dark Mode by default.
+                        </div>
+                    </div>
+					</div>
+					<div className="row align-items-center ftr-logo">
+					<a href=""><img src="../../images/cropped-Omra_Branding_logo.png" alt="image1"/></a>
+					</div>
+					<div className="row">
+						
+						<div class="col-md-6">
+					
+                        <div class="footer-txt-1">
+						Copyright © 2021 Oara Solutions. All rights reserved.
+                        </div>
+                     
+                    </div>
+					<div class="col-md-6">
+					<div class="socail">
+                        <a target="_blank" class="fa fa-facebook" aria-hidden="true" href="https://www.facebook.com"></a>
+                        <a target="_blank" class="fa fa-twitter" aria-hidden="true" href="https://twitter.com"></a>
+                        <a target="_blank" class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com"></a>
+                        <a target="_blank" class="fa fa-youtube-play" aria-hidden="true" href="https://www.youtube.com"></a>
+                        <a target="_blank" class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com"></a>
+                    </div>
+					<div class="footer-terms">
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#" target="_blank">Cookie Policy</a>
+                    </div>
+                       
+                       
+                    </div>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-xl-3 col-lg-4 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-                        <div className="widget widget_about">
-							<h5 className="footer-title">About Us</h5>
-							<p>Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.</p>
-							<div className="dlab-social-icon">
-								<ul>
-									<li><a className="fa fa-facebook" href="https://en-gb.facebook.com/"></a></li>
-									<li><a className="fa fa-instagram" href="https://www.instagram.com/"></a></li>
-									<li><a className="fa fa-twitter" href="https://twitter.com/login?lang=en"></a></li>
-								</ul>
-							</div>
-						</div>
-                    </div>
-					<div className="col-xl-3 col-lg-2 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-						<div className="widget widget_services">
-							<h5 className="footer-title">Our links</h5>
-							<ul>
-								<li><Link href="#"><a>Home</a></Link></li>
-								<li><Link href="#"><a>About Us</a></Link></li>
-								<li><Link href="#"><a>Services</a></Link></li>
-								<li><Link href="#"><a>Team</a></Link></li>
-								<li><Link href="#"><a>Blog</a></Link></li>
-							</ul>
-						</div>
-                    </div>
-					<div className="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-						<div className="widget widget_services">
-							<h5 className="footer-title">Our Services</h5>
-							<ul>
-								<li><Link href="#"><a>Strategy & Research</a></Link></li>
-								<li><Link href="#"><a>Web Development</a></Link></li>
-								<li><Link href="#"><a>Web Solution</a></Link></li>
-								<li><Link href="#"><a>Digital Marketing</a></Link></li>
-								<li><Link href="#"><a>App Design </a></Link></li>
-							</ul>
-						</div>
-                    </div>
-					<div className="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
-						<div className="widget widget_services">
-						   <h5 className="footer-title">Other links</h5>
-						   <ul>
-								<li><Link href="#"><a>FAQ</a></Link></li>
-								<li><Link href="#"><a>Portfolio</a></Link></li>
-								<li><Link href="#"><a>Privacy Policy</a></Link></li>
-								<li><Link href="#"><a>Terms & Conditions</a></Link></li>
-								<li><Link href="#"><a>Support </a></Link></li>
-							</ul>
-						</div>
-                    </div>
-                </div>
+
             </div>
         </div>
         {/* <!-- footer bottom part --> */}
-        <div className="footer-bottom wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+        {/* <div className="footer-bottom wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 text-center"> 
@@ -106,7 +75,7 @@ function Footer() {
 					</div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </footer>
     {/* <!-- Footer End --> */}
     </>

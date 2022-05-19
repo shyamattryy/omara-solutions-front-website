@@ -25,7 +25,7 @@ function ReportSlider1() {
           dots:true,
           infinite:true,
           slidesToScroll:1,
-          autoplay:false,
+          autoplay:true,
 			  }
 			},
 			{

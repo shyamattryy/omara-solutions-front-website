@@ -58,3 +58,9 @@
         width: 100%;
     }
 }
+@media only screen and (max-width: 767px){
+.headingtext{
+  margin: 0px auto;
+  width: fit-content!important;
+  display: block;
+} }
