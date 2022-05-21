@@ -60,6 +60,7 @@ our clients, and partners.</p>
           slidesToShow={2}
           swipeToSlide={true}
           focusOnSelect={true}
+        
           
         >
       

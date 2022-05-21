@@ -19,12 +19,11 @@ function HomeSlider() {
                     <div className="container text">
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="slidertextblock">
+                                
                                     <h2>Enabling Business Transformation</h2>
                                     <p>To be agile, intuitive, and transparent to stay competitive, through our radical Solutions</p>
                                     {/* <a href="#" ><span>Button</span><i></i></a> */}
-                                    <a href="#" ><span>Know More</span><i></i></a>
-
+                                    <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
                                 </div>
                             </div>
                         </div>

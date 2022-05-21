@@ -14,7 +14,8 @@ function Secondsec() {
                     <div className="col-4 sec-ssldr" style={{position:"relative", zIndex:"9",display:"flex",alignItems:'center'}}><div className={Styles.headingtext}>
                         <h2>Omra solutions</h2>
                         <p>The changes that have been unfolding in the pandemic are not evolutionary but revolutionary. And now, we are geared to help our customers revolutionize their businesses with next-gen technologies that power our solutions. With NXT.NOW™, we are ready to Imagine the future that we can deliver on, Build solutions that are unique, and Run the systems of the tomorrow efficiently today.</p>
-<a href="#">Know More</a>
+                        <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
+                                </div>
                     </div></div>
 
                     <div className="col-10" style={{position:"absolute", right:"0px"}}><SecondSlider /></div>

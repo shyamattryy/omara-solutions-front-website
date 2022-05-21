@@ -1,9 +1,29 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import Slider from "react-slick";
 
-function BlogSlider() {
+function BlogSlider({data}) {
     const [asd, setAsd] = useState();
+    const [blogsData,setblogsData]=useState([])
+    useEffect(() => {
+        fetch('http://securewasteservices.com/wp-json/wp/v2/posts')
+          .then((res) => res.json())
+          .then((data) => {
+            setblogsData(data);
+            
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }, []);
+
+    //   console.log({"syamwala":blogsData})
+
+    const blogs=blogsData.map(item=>item)
+    const blogs1=blogs.map(item=>item)
+    console.log(blogs1)
+  
+
     const settings = {
         dots: false,
         arrows: false,
@@ -60,135 +80,8 @@ function BlogSlider() {
                 <Slider ref={c => setAsd(c)}
                 {...settings} 
                 >
-                    <div
-                        className="item wow fadeInUp"
-                        data-wow-duration="2s"
-                        data-wow-delay="0.2s"
-                    >
-                        <div className="dlab-blog style-1 bg-white text-center">
-                            <div className="dlab-media">
-                            <Link href="blog-details-1"><a>                                   <img
-                                        src="images/blog/blog-grid-1/pic1.jpg"
-                                        alt=""
-                                    />
-                                </a></Link>
-                            </div>
-                            <div className="dlab-info">
-                                <h5 className="dlab-title">
-                                <Link href="blog-details-1"><a>
-                                        Praesent ut lobortis purus hasellus libero
-                                        orci, accumsan.
-                                        </a></Link>
-                                </h5>
-                                <p className="m-b0">
-                                    Pellentesque vel nibh gravida erat interdum
-                                    lacinia vel in lectus. Sed fermentum pulvinar.
-                            </p>
-                                <div className="dlab-meta meta-bottom">
-                                    <ul>
-                                        <li className="post-date">
-                                            <i className="flaticon-clock m-r10"></i>7
-                                        March, 2020
-                                    </li>
-                                        <li className="post-comment">
-                                            <a href="javascript:void(0);">
-                                                <i className="flaticon-speech-bubble"></i>
-                                                <span>15</span>
-                                            </a>
-                                        </li>
-                                        <li className="post-share">
-                                            <i className="flaticon-share"></i>
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-facebook"
-                                                        href="https://www.facebook.com/"
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-twitter"
-                                                        href="https://twitter.com/login?lang=en"
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-linkedin"
-                                                        href="https://www.linkedin.com/login"
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="item wow fadeInUp"
-                        data-wow-duration="2s"
-                        data-wow-delay="0.4s"
-                    >
-                        <div className="dlab-blog style-1 bg-white text-center">
-                            <div className="dlab-media">
-                            <Link href="blog-details-1"><a>
-                                    <img
-                                        src="images/blog/blog-grid-1/pic2.jpg"
-                                        alt=""
-                                    />
-                                </a></Link>
-                            </div>
-                            <div className="dlab-info">
-                                <h5 className="dlab-title">
-                                    <Link href="blog-details-1"><a>
-                                        Donec feugiat mollis nisi in dignissim.
-                                        Morbi lectus.
-                                        </a></Link>
-                                </h5>
-                                <p className="m-b0">
-                                    Pellentesque vel nibh gravida erat interdum
-                                    lacinia vel in lectus. Sed fermentum pulvinar.
-                            </p>
-                                <div className="dlab-meta meta-bottom">
-                                    <ul>
-                                        <li className="post-date">
-                                            <i className="flaticon-clock m-r10"></i>7
-                                        March, 2020
-                                    </li>
-                                        <li className="post-comment">
-                                            <a href="javascript:void(0);">
-                                                <i className="flaticon-speech-bubble"></i>
-                                                <span>15</span>
-                                            </a>
-                                        </li>
-                                        <li className="post-share">
-                                            <i className="flaticon-share"></i>
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-facebook"
-                                                        href="https://www.facebook.com/"
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-twitter"
-                                                        href="https://twitter.com/login?lang=en"
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-linkedin"
-                                                        href="https://www.linkedin.com/login"
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                     {blogs.map(item=>{
+                            return(
                     <div
                         className="item wow fadeInUp"
                         data-wow-duration="2s"
@@ -198,7 +91,8 @@ function BlogSlider() {
                             <div className="dlab-media">
                             <Link href="blog-details-1"><a>
                                     <img
-                                        src="images/blog/blog-grid-1/pic3.jpg"
+                                        // src="images/blog/blog-grid-1/pic3.jpg"
+                                        src={item.jetpack_featured_media_url}
                                         alt=""
                                     />
                                 </a></Link>
@@ -206,19 +100,21 @@ function BlogSlider() {
                             <div className="dlab-info">
                                 <h5 className="dlab-title">
                                 <Link href="blog-details-1"><a>
-                                        Quisque sem tortor, convallis in arcu eu,
-                                        accumsan finibus.
+                                        {/* Quisque sem tortor, convallis in arcu eu,
+                                        accumsan finibus. */}
+                                        {item.title.rendered.slice(0,50)}...
                                         </a></Link>
                                 </h5>
                                 <p className="m-b0">
-                                    Pellentesque vel nibh gravida erat interdum
-                                    lacinia vel in lectus. Sed fermentum pulvinar.
+                                {item.excerpt.rendered.slice(3,90)}...
                             </p>
+                               
                                 <div className="dlab-meta meta-bottom">
+                                   
                                     <ul>
                                         <li className="post-date">
-                                            <i className="flaticon-clock m-r10"></i>7
-                                        March, 2020
+                                            <i className="flaticon-clock m-r10"></i>
+                                        {item.date.slice(0,10)}
                                     </li>
                                         <li className="post-comment">
                                             <a href="javascript:void(0);">
@@ -253,77 +149,17 @@ function BlogSlider() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div
-                        className="item wow fadeInUp"
-                        data-wow-duration="2s"
-                        data-wow-delay="0.6s"
-                    >
-                        <div className="dlab-blog style-1 bg-white text-center">
-                            <div className="dlab-media">
-                            <Link href="blog-details-1"><a>
-                                    <img
-                                        src="images/blog/blog-grid-1/pic3.jpg"
-                                        alt=""
-                                    />
-                                </a></Link>
-                            </div>
-                            <div className="dlab-info">
-                                <h5 className="dlab-title">
-                                <Link href="blog-details-1"><a>
-                                        Quisque sem tortor, convallis in arcu eu,
-                                        accumsan finibus.
-                                        </a></Link>
-                                </h5>
-                                <p className="m-b0">
-                                    Pellentesque vel nibh gravida erat interdum
-                                    lacinia vel in lectus. Sed fermentum pulvinar.
-                            </p>
-                                <div className="dlab-meta meta-bottom">
-                                    <ul>
-                                        <li className="post-date">
-                                            <i className="flaticon-clock m-r10"></i>7
-                                        March, 2020
-                                    </li>
-                                        <li className="post-comment">
-                                            <a href="javascript:void(0);">
-                                                <i className="flaticon-speech-bubble"></i>
-                                                <span>15</span>
-                                            </a>
-                                        </li>
-                                        <li className="post-share">
-                                            <i className="flaticon-share"></i>
-                                            <ul>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-facebook"
-                                                        href="https://www.facebook.com/"
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-twitter"
-                                                        href="https://twitter.com/login?lang=en"
-                                                    ></a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="fa fa-linkedin"
-                                                        href="https://www.linkedin.com/login"
-                                                    ></a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
-                    </div>
+                            )
+                        })
+}
+                    
                 </Slider>
                 {renderArrows()}
             </div>
         </>
     );
+  
 }
 
 export default BlogSlider;

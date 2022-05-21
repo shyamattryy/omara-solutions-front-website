@@ -9,7 +9,7 @@
 .headingtext{
     vertical-align: middle;
     margin: 100px 0px;
-    span{
+    .head_bck{
         background-image: linear-gradient(to right, #d41a9c, #d41a9c, #f5d202, #f5d202, #f5d202);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -25,13 +25,13 @@
         color: #fff;
 
     }
-    a{
-        animation: color-change 2s linear infinite;
-        border:solid 3px #ff1493;
-        padding: 11px 30px;
-        color: #fff;
-        border-radius: 5px;
-    }
+    // a{
+    //     animation: color-change 2s linear infinite;
+    //     border:solid 3px #ff1493;
+    //     padding: 11px 30px;
+    //     color: #fff;
+    //     border-radius: 5px;
+    // }
 }
 @keyframes color-change {
     0%,100%{

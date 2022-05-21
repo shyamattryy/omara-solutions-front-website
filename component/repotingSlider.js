@@ -80,7 +80,9 @@ const renderArrows = () => {
                         <div className="omra-slider ">
                         <div className="col-6">
                                 <p>Oamra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
-                                <a href="#">Know More</a>
+                                <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
+                             <i></i></a>
+                                </div>
                             </div>
                         </div>
                            
@@ -103,7 +105,9 @@ const renderArrows = () => {
                        <div className="omra-slider ">
                        <div className="col-6">
                                <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
-                               <a href="#">Know More</a>
+                               <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
+                             <i></i></a>
+                                </div>
                            </div>
                        </div>
                           
@@ -126,7 +130,9 @@ const renderArrows = () => {
                        <div className="omra-slider ">
                        <div className="col-6">
                                <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
-                               <a href="#">Know More</a>
+                               <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
+                             <i></i></a>
+                                </div>
                            </div>
                        </div>
                           
@@ -149,7 +155,9 @@ const renderArrows = () => {
                        <div className="omra-slider ">
                        <div className="col-6">
                                <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
-                               <a href="#">Know More</a>
+                               <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
+                             <i></i></a>
+                                </div>
                            </div>
                        </div>
                           

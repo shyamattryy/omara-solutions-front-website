@@ -18,7 +18,9 @@ function Footer() {
                         <div class="footer-txt-1">
                             Awarded 'Gold CSR Rating - 2021' by EcoVadis
                         </div>
-                        <a href="#" class="linkButtun-white"><span>Know More</span></a>
+                        {/* <a href="#" class="linkButtun-white"><span>Know More</span></a> */}
+                        <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
+                                </div>
                     </div>
 					<div class="col-md-4 float-r1-c2">
                         <div class="ftt-col2-title">
