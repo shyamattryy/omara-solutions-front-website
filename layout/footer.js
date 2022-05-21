@@ -12,11 +12,11 @@ function Footer() {
 						
 						<div class="col-md-8">
                         <div class="footer-title1">
-                            Sustainability
-                            <br/>Highlights
+                        Lorem Ipsum
+                            <br/>Lorem Ipsum
                         </div>
                         <div class="footer-txt-1">
-                            Awarded 'Gold CSR Rating - 2021' by EcoVadis
+                        OMRASOLUTIONS OMRASOLUTIONS
                         </div>
                         {/* <a href="#" class="linkButtun-white"><span>Know More</span></a> */}
                         <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
@@ -24,14 +24,15 @@ function Footer() {
                     </div>
 					<div class="col-md-4 float-r1-c2">
                         <div class="ftt-col2-title">
-                            Energy Saved
+                        Lorem Ipsum
                         </div>
                         <div class="fttr-img">
-                            <div class="enerrg clssSavings">16.73</div>
+                            <div class="enerrg clssSavings">98.89</div>
                             <div class="kwkw">kW</div>
                         </div>
                         <div class="footerr-subtext">
-                            We are one of the world's first website to run on Dark Mode by default.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </div>
                     </div>
 					</div>

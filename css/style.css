@@ -10385,6 +10385,7 @@ textarea {
   display: inline-block;
   border-radius: 5px;
   font-size: 15px;
+  font-family: sans-serif;
   font-weight: 500; }
 
 .btn.btn-lg, .btn-group-lg > .btn {
@@ -15339,6 +15340,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
         color: #a2342d;
         font-size: 15px;
         padding: 35px 15px;
+        font-family: sans-serif;
         cursor: pointer;
         font-weight: 600;
         display: inline-block;
@@ -15434,6 +15436,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
             color: #fff;
             display: block;
             font-size: 15px;
+            font-family: sans-serif;
             padding: 10px 25px;
             text-transform: capitalize;
             position: relative;
@@ -16659,7 +16662,8 @@ h2.second_headingtext___BOCw {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 18px;
+  font-family: sans-serif;
   letter-spacing: 0.1em;
   font-weight: 400;
   padding: 10px 30px;
@@ -16728,7 +16732,8 @@ h2.second_headingtext___BOCw {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 18px;
+  font-family: sans-serif;
   letter-spacing: 0.1em;
   font-weight: 400;
   padding: 10px 30px;
@@ -16813,6 +16818,7 @@ display: none;
   color: #fff;
   padding-bottom: 8px;
   line-height: 44px;
+  font-family: sans-serif;
 }
   .footer-txt-1 {
     color: #fff;
@@ -16840,6 +16846,7 @@ display: none;
   font-weight: 700;
   color: #fff;
   padding-bottom: 8px;
+  font-family: sans-serif;
 }
 .fttr-img {
   float: left;
