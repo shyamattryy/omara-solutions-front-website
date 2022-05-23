@@ -8,7 +8,7 @@ function HomeSlider() {
             <Carousel className="homeSlidr" autoPlay={true} infiniteLoop={true} interval={5000}>
                 <div className="slider-image1"
                     style={{
-                        backgroundImage: "url('/images/sliderimages/butterfly.jpg')",
+                        backgroundImage: "url('/images/sliderimages/butterfly1.jpg')",
                         width: "100%",
 
                         backgroundRepeat: "no-repeat",
@@ -75,7 +75,7 @@ function HomeSlider() {
 
                 </div>
                 <div className="slider-image1" style={{
-                    backgroundImage: "url('/images/sliderimages/eye.jpg')",
+                    backgroundImage: "url('/images/sliderimages/EYE (1).jpg')",
                     width: "100%",
 
                     backgroundRepeat: "no-repeat",
