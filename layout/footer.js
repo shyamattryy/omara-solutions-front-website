@@ -18,8 +18,11 @@ function Footer() {
                         <div class="footer-txt-1">
                         OMRASOLUTIONS OMRASOLUTIONS
                         </div>
+                        <div class="footer-txt-1">
+                        OMRASOLUTIONS text2
+                        </div>
                         {/* <a href="#" class="linkButtun-white"><span>Know More</span></a> */}
-                        <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
+                        <div className="footer_button">  <a href="#" ><span>Know More</span><i></i></a>
                                 </div>
                     </div>
 					<div class="col-md-4 float-r1-c2">

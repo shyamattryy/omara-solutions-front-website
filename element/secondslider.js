@@ -11,7 +11,7 @@ function SecondSlider(){
                     backgroundImage:"url('/images/background/cp-homepage-thumb.png')",
                     width: "100%",backgroundRepeat: "no-repeat",backgroundSize: "cover" }} >
                         {/* <div className="bg"><Image src="/images/background/sec1.png" alt="image1" width={1200} height={500}/></div> */}
-                        <div className="container text slider-border">
+                        <div className="container text slider-border second-container">
                             <div className="slider-texto">
                                 <h5>Dedicated Teams</h5>
                                 <p>Our expertise teams are creating breakthroughs for <br />our clients, and partners.</p>
