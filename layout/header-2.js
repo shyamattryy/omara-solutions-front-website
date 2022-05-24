@@ -76,7 +76,7 @@ function Header2() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                 <Link href="/contact-us-2">
-                                        <a className="btn btn-primary rounded-xl gradient shadow">Get A Quote</a>
+                                        <a className="btn btn-primary rounded-xl gradient shadow">Send An Inquiry </a>
                                     </Link>
                                 </div>
                             </div>
@@ -96,12 +96,12 @@ function Header2() {
 
                                 <ul className="nav navbar-nav navbar">
                                    
-									<li><Link href="/"><a>Services</a></Link><i className="fa fa-chevron-down"></i>
+                                    <li><Link href="/"><a>Services</a></Link><i className="fa fa-chevron-down"></i>
                                     <ul className="sub-menu">
-											<li><Link href="/about-us-2"><a>It Development</a></Link></li>
-											<li><Link href="/faq-2"><a>Voice Blend Process</a></Link></li>
-											<li><Link href="/pricing-table-2"><a>Hire Developers</a></Link></li>
-											<li><Link href="/team-2"><a>Resource Management</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>It Development</a></Link></li>
+                                            <li><Link href="/faq-2"><a>Voice Blend Process</a></Link></li>
+                                            <li><Link href="/pricing-table-2"><a>Hire Developers</a></Link></li>
+                                            <li><Link href="/team-2"><a>Resource Management</a></Link></li>
                                             <li><Link href="/coming-soon"><a>E-Commerce Product Uploading</a></Link></li>
                                             <li><Link href="/error-404"><a>Digital Marketing</a></Link></li>
                                             
@@ -117,24 +117,24 @@ function Header2() {
                                             <i className="fa fa-chevron-down"></i>
                                         </a>
                                         <ul className="sub-menu">
-											<li><Link href="/about-us-2"><a>E-Laundry</a></Link></li>
-											<li><Link href="/faq-2"><a>Faq</a></Link></li>
-											<li><Link href="/pricing-table-2"><a>Pricing Table</a></Link></li>
-											<li><Link href="/team-2"><a>Team</a></Link></li>
+                                            <li><Link href="/about-us-2"><a>E-Laundry</a></Link></li>
+                                            <li><Link href="/faq-2"><a>Faq</a></Link></li>
+                                            <li><Link href="/pricing-table-2"><a>Pricing Table</a></Link></li>
+                                            <li><Link href="/team-2"><a>Team</a></Link></li>
                                             <li><Link href="/coming-soon"><a>Coming Soon</a></Link></li>
                                             <li><Link href="/error-404"><a>Error 404</a></Link></li>
                                             <li><Link href="/sitedown"><a>Site Down</a></Link></li>
                                         </ul>
                                     </li>
                                     <li><Link href="/about-us-2"><a>About Us</a></Link></li>
-									<li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
-										<ul className="sub-menu">
-											<li><Link href="/blog-grid-2"><a>Blog Grid</a></Link></li>
-											<li><Link href="/blog-details-2"><a>Blog Details</a></Link></li>
-										</ul>
-									</li>
-									<li><Link href="/contact-us-2"><a>Contact Us</a></Link></li>
-									
+                                    <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
+                                        <ul className="sub-menu">
+                                            <li><Link href="/blog-grid-2"><a>Blog Grid</a></Link></li>
+                                            <li><Link href="/blog-details-2"><a>Blog Details</a></Link></li>
+                                        </ul>
+                                    </li>
+                                    <li><Link href="/contact-us-2"><a>Contact Us</a></Link></li>
+                                    
                                 </ul>
                                 <div className="dlab-social-icon">
                                     <ul>

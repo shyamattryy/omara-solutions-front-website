@@ -16285,7 +16285,11 @@ a.linkBtn span {
 }
 .slick-dots{
   margin-bottom: 0px !important;
+  bottom: -35px !important;
   
+}
+.darkcoloumn{
+  padding: 67px 0px !important;
 }
 .slick-dots li button:before{
   background: #fff;
@@ -16631,7 +16635,6 @@ flex: 0 0 100%;
 }
 p.leader_leaderpara__2uIkn {
   font-size: 16px!important;
-  padding: 0px 10px;
 }
 p .second_headingtext___BOCw {
   font-size: 36px!important;
@@ -17007,7 +17010,6 @@ display: none;
   float: right;
   padding: 10px 0px;
   color: #fff;
-  padding: 0px 15px;
   font-size: 18px;
   font-family: sans-serif!important;
   font-weight: 300;
@@ -17110,7 +17112,6 @@ padding: 0px 13px;
 
 .slidertextblock h2{
   font-family: sans-serif!important;
- 
 }
 .slick-dots{
   padding-top: -45px!important;
@@ -17126,12 +17127,6 @@ padding: 0px 13px;
    }
    .second_dark__221aH.container-fluid {
     padding: 0px;
-}
-.slidertextblock h2{
- padding: 0px 15px;
-}
-.slidertextblock p{
-  padding: 0px 15px;
 }
 }
 
