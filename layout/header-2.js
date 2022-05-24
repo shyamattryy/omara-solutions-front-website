@@ -96,8 +96,16 @@ function Header2() {
 
                                 <ul className="nav navbar-nav navbar">
                                    
-                                    <li><Link href="/"><a>Services</a></Link><i className="fa fa-chevron-down"></i>
-                                    <ul className="sub-menu">
+                                <li
+                                        className={`${
+                                            open === "service" ? "open" : ""
+                                        }`}
+                                    >
+                                        <a onClick={() => setOpen("service")}>
+                                            <span>Services</span>
+                                            <i className="fa fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="sub-menu">
                                             <li><Link href="/about-us-2"><a>It Development</a></Link></li>
                                             <li><Link href="/faq-2"><a>Voice Blend Process</a></Link></li>
                                             <li><Link href="/pricing-table-2"><a>Hire Developers</a></Link></li>

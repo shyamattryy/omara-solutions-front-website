@@ -16673,11 +16673,11 @@ h2.second_headingtext___BOCw {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif!important;
   letter-spacing: 0.1em;
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 12px 30px;
   transition: 0.5s;
 }
 
@@ -16742,11 +16742,11 @@ h2.second_headingtext___BOCw {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif!important;
   letter-spacing: 0.1em;
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 12px 30px;
   transition: 0.5s;
 }
 
@@ -16817,16 +16817,25 @@ h2.second_headingtext___BOCw {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif!important;
   letter-spacing: 0.1em;
   font-weight: 400;
-  padding: 10px 30px;
+  padding: 12px 30px;
   transition: 0.5s;
 }
 @media only screen and (max-width: 767px) {
   .slidertextblock1 > a {
 display: none;
+  }
+  .slidertextblock1 > a:hover{
+    margin-left: auto;
+  }
+  .slidertextblock > a:hover{
+    margin-left: auto;
+  }
+  .footer_button > a:hover{
+    margin-left: auto;
   }
 }
 .slidertextblock1 > a:hover {
@@ -17134,3 +17143,7 @@ padding: 0px 13px;
 .carousel .control-dots {
     bottom: 20;
 } }
+
+.carousel .carousel-status {
+  display: none;
+}
