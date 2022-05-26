@@ -6,7 +6,7 @@ import Blog2 from "../element/blog-2";
 import Counter2 from "../element/counter2";
 import AboutUs_2 from "../element/aboutUs-2"
 import Header from "../layout/header-2";
-import Footer2 from "./../layout/footer-2";
+import Footer from "./../layout/footer-2";
 import Testimonial2 from "../element/testimonial-2";
 
 function AboutUs2() {
@@ -158,7 +158,7 @@ function AboutUs2() {
 			</div>
         </div>
       </div>
-      <Footer2 />
+      <Footer/>
     </>
   );
 }
