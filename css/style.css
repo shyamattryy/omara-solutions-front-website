@@ -16651,7 +16651,7 @@ h2.second_headingtext___BOCw {
 
 .slider {display: block;width: 100%;position: relative;}
 
-.omra-slider p {font-size: 15px;line-height: 1.2em;margin-bottom: 15px;}
+.omra-slider p {font-size: 18px;line-height: 1.2em;margin-bottom: 15px;}
 
 .omra-slider a {position: initial !important;top: 11px !important;margin-top: 15px !important;display: block;width: fit-content;padding: 7px 10px 7px 10px;line-height: 1.2em;}
 .second_headingtext___BOCw a {
@@ -17137,6 +17137,9 @@ padding: 0px 13px;
    .second_dark__221aH.container-fluid {
     padding: 0px;
 }
+.site-header .main-bar{
+  margin-top: 5px;
+}
 }
 
 @media (min-width: 1490px){
@@ -17146,4 +17149,28 @@ padding: 0px 13px;
 
 .carousel .carousel-status {
   display: none;
+}
+.footer-terms a:hover {
+  text-decoration: underline;
+}
+.our_blog{
+  padding: 67px 0; 
+ }
+ @media only screen and (max-width: 767px){
+  .our_blog{
+    padding: 0px 0px; 
+   } 
+   .dlab-social-icon ul a {
+    margin: 0px 8px;
+} 
+.content-inner-2{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.footer-txt-1{
+  font-size: 16px; 
+} .footerr-subtext{
+  font-size: 16px;
+  padding: 0px 15px;
+}
 }

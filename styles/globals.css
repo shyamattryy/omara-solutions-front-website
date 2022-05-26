@@ -265,8 +265,27 @@
 .slider-texto p{
     text-align: center;
 }
+.omra-leadersection .col-6 .slick-slider.slick-initialized button.slick-arrow.slick-prev {
+   left: 76% !important;}
+   .omra-leadersection .col-6 .slick-slider.slick-initialized button {
+   top: 95%!important;}
+
 }
 
 .page-content.bg-white {
     overflow: hidden;
+}
+@media only screen and (max-width: 767px){
+.second_headingtext___BOCw p {
+    font-size: 16px;
+} 
+.slider-texto p{
+    font-size: 16px; 
+}
+.four_headingtext__12fD4{
+    font-size: 16px; 
+}
+.m-b0{
+    font-size: 16px; 
+}
 }

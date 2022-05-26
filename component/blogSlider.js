@@ -6,7 +6,7 @@ function BlogSlider({data}) {
     const [asd, setAsd] = useState();
     const [blogsData,setblogsData]=useState([])
     useEffect(() => {
-        fetch('http://securewasteservices.com/wp-json/wp/v2/posts')
+        fetch('https://omrasolutions.com/wp-json/wp/v2/posts')
           .then((res) => res.json())
           .then((data) => {
             setblogsData(data);

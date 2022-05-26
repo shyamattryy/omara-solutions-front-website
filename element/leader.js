@@ -11,7 +11,7 @@ console.log(sliderRef.current);
 
   return (
     <>
-      <section className="content-inner-2" style={{ "backgroundImage": "url(images/background/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg)", "backgroundSize": "cover", "backgroundPosition": "top center", "backgroundRepeat": "no-repeat" , padding:"87px 0px 67px 0px !important" }}>
+      <section className="content-inner-2" style={{ "backgroundImage": "url(images/background/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg)", "backgroundSize": "cover", "backgroundPosition": "top center", "backgroundRepeat": "no-repeat" , "padding-top":"87px!important","padding-bottom":"67px!important" }}>
         <div className="omra-leadersection">
           <div className="container">
             <div className="row">
