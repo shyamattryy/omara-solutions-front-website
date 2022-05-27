@@ -11,60 +11,50 @@ function Footer() {
 					<div className="row">
 						
 						<div class="col-md-8">
-                        <div class="footer-title1">
-                        Lorem Ipsum
-                            <br/>Lorem Ipsum
-                        </div>
-                        <div class="footer-txt-1">
-                        OMRASOLUTIONS OMRASOLUTIONS
-                        </div>
-                        <div class="footer-txt-1">
-                        OMRASOLUTIONS text2
-                        </div>
-                        {/* <a href="#" class="linkButtun-white"><span>Know More</span></a> */}
-                        <div className="footer_button">  <a href="#" ><span>Know More</span><i></i></a>
-                                </div>
+                        <div className="row align-items-center ftr-logo">
+					<a href=""><img src="../../images/cropped-Omra_Branding_logo.png" alt="image1"/></a><br/>
+					
+</div>
                     </div>
-					<div class="col-md-4 float-r1-c2">
-                        <div class="ftt-col2-title">
-                        Lorem Ipsum
-                        </div>
-                        <div class="fttr-img">
-                            <div class="enerrg clssSavings">98.89</div>
-                            <div class="kwkw">kW</div>
-                        </div>
-                        <div class="footerr-subtext">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </div>
-                    </div>
+
+					
+
+
 					</div>
-					<div className="row align-items-center ftr-logo">
-					<a href=""><img src="../../images/cropped-Omra_Branding_logo.png" alt="image1"/></a>
-					</div>
+
+					
 					<div className="row">
 						
 						<div class="col-md-6">
 					
                         <div class="footer-txt-1">
-						Copyright © 2021 Oara Solutions. All rights reserved.
+                        <form className='form-section'>
+                        <input type="email" placeholder="Email address" className="news-section-box" />
+                        <button type="button" className="newsletter-button">Submit</button></form>
+
+
+						<h4>Subscribe</h4>
+                    <p>Select topics and stay current with our latest insights</p><br/>
                         </div>
                      
                     </div>
 					<div class="col-md-6">
-					<div class="socail">
+					
+					<div class="footer-terms">
+                        <a href="#">Contact us</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Terms of use</a>
+                        <a href="#">Local language information</a>
+                        <a href="#" target="_blank">Accessibility statement</a>
+                    </div>
+                    <div class="socail">
                         <a target="_blank" class="fa fa-facebook" aria-hidden="true" href="https://www.facebook.com"></a>
                         <a target="_blank" class="fa fa-twitter" aria-hidden="true" href="https://twitter.com"></a>
                         <a target="_blank" class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com"></a>
                         <a target="_blank" class="fa fa-youtube-play" aria-hidden="true" href="https://www.youtube.com"></a>
                         <a target="_blank" class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com"></a>
                     </div>
-					<div class="footer-terms">
-                        <a href="#">Terms of Use</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#" target="_blank">Cookie Policy</a>
-                    </div>
-                       
                        
                     </div>
 					</div>
@@ -72,6 +62,9 @@ function Footer() {
 
             </div>
         </div>
+        <hr/>
+        <p className='text-center'>Copyright © 2021 Oara Solutions. All rights reserved.
+</p>
         {/* <!-- footer bottom part --> */}
         {/* <div className="footer-bottom wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
             <div className="container">

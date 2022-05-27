@@ -73,13 +73,7 @@ function Header2() {
                                 <span></span>
                             </button>
                             {/* <!-- Extra Nav --> */}
-                            <div className="extra-nav">
-                                <div className="extra-cell">
-                                <Link href="/contact-us-2">
-                                        <a className="btn btn-primary rounded-xl gradient shadow">Send An Inquiry </a>
-                                    </Link>
-                                </div>
-                            </div>
+                            
                             <div
                                 className={`header-nav navbar-collapse collapse justify-content-end ${
                                     show ? "show" : ""
