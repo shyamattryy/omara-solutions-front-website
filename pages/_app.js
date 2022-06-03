@@ -11,6 +11,8 @@ import "../css/style.css";
 import "../css/skin/skin-2.css";
 import "../styles/globals.css";
 import "../styles/switcher.css";
+import "../scss/abstract/thought-leadership.css"
+import "../scss/abstract/intelligent-automation.css"
 
 function MyApp({ Component, pageProps }) {
   const [toggle1, setToggle1] = useState(false);

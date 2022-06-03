@@ -121,10 +121,12 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-
+28
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
+  padding: 11px 15px;
 }
 
 abbr[title],
@@ -11591,23 +11593,20 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
-  font-family: sans-serif !important;
-  font-weight: 700;
-  color: #fff;
+.h6  {
+    font-family: sans-serif !important;
+    font-weight: 700;
+    color: #fff;
+    padding: 19px 0px;
 }
+
 
 ul {
   padding: 0;
   margin: 0;
 }
 
-img {
-  border-style: none;
-  height: 100%;
-  max-width: 100%;
-  vertical-align: middle;
-}
+ 
 
 li {
   list-style: none;
@@ -22728,12 +22727,15 @@ footer .widget_getintuch ul li i {
   font-size: 22px;
 }
 
-.site-footer.style-1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #f55f8d;
+
+  .site-footer.style-1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #f55f8d;
+    padding-top: 15px;
 }
+
 
 .site-footer.style-1 .footer-top {
   background: transparent;
@@ -23296,13 +23298,14 @@ a.linkBtn span {
   }
 
 
+  
   [class*=col] {
-    flex: 0 0 100%;
-    max-width: 100%;
-    position: relative !important;
-    text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
+      flex: 0 0 100%;
+      max-width: 100%;
+      position: relative !important;
+      text-align: justify;
+       /*  padding-left: 64px;*/
+      /* padding-right: 29px; */
   }
 
   [class*=slider-border] {
@@ -23675,6 +23678,7 @@ a.linkBtn span {
   padding-bottom: 15px;
   font-family: sans-serif !important;
   font-weight: 300;
+  height: 167px;
 }
 
 a.linkButtun-white {
@@ -24006,10 +24010,12 @@ body {
 }
 
 .section-box {
-  padding: 30px;
-  margin-left: 120px;
-
+  
+    padding: 56px;
+    margin-left: -39px;
 }
+
+
 
 .section-box-left {
   padding-left: 46px;
@@ -24123,15 +24129,20 @@ body {
   color: white;
   background-color: black;
   border: 1px solid black;
-  ;
   height: 40px;
   margin: 7px;
   width: 113px;
-}
+  border-radius: 5px; }
+
 .news-section-box{
   height: 40px;
   margin: 9px;
   width: 248px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 1.5em;
 }
 .image-section-box{
   height: 200px;
@@ -24148,3 +24159,11 @@ body {
   margin-left:-7px;
   margin-top: 30px;
 }
+
+.paragraph-section1 {
+  margin-top: 2px;
+  margin-bottom: 2rem;
+  text-align: justify !important;
+}
+
+

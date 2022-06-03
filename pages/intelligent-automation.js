@@ -9,7 +9,7 @@ function intelligent_automation() {
         <>
             <Header2 />
 
-            {/* <!-- Banner  --> */}
+            {/* <!-- Banner  --> 
             <div className="container-fluid box-full" >
                 <img src="/intelligentautomationimages/banner.jpg" alt="banner" />
 
@@ -21,13 +21,21 @@ function intelligent_automation() {
 
 
 
-            <h2 className="text-center  padding-section">OUR APPROACH</h2>
+            <h2 className="text-center  padding-section">OUR APPROACH</h2>*/}
 
+<section>
+                <div className="image-section1">
+                <div className="container">
+                    <h1 className="banner-title">#UNLOCKEXPERIENCES WITH AI </h1>
+                    <p>Deliver superior experiences through intelligent automation, with AQT</p>
+                    </div>
+                </div>
+            </section>
             {/* <!-- Section 1 Starts --> */}
-            <section className="section-box">
+            <section className="section-box section44">
                 <div className="container">
                     <div className="row">
-                        <div className="col-5">
+                        <div className="col-6">
                             <h4 className="section-box-top"> Experiences Begin with Smarter Processes</h4>
                             <p className="paragraph-section">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
                             {/* For Button*/}
@@ -37,7 +45,7 @@ function intelligent_automation() {
                             </div>
 
                         </div>
-                        <div className="col-5 section1" >
+                        <div className="col-6 section1" >
                             <img src="/intelligentautomationimages/section1.jpg" alt="section1" />
                         </div>
 
@@ -46,13 +54,13 @@ function intelligent_automation() {
             </section>
 
             {/* <!-- Section 2 Starts --> */}
-            <section className="section-box">
+            <section className="section-box section45">
                 <div className="container">
                     <div className="row">
-                        <div className="col-5 section2-img ">
+                        <div className="col-6 section2-img ">
                             <img src="/intelligentautomationimages/section2.jpg" alt="section2" />
                         </div>
-                        <div className="col-5">
+                        <div className="col-6">
                             <div className="section-text">
                                 <h4> Experiences Begin with Smarter Processes</h4>
                                 <p className="paragraph-section">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
@@ -73,9 +81,9 @@ function intelligent_automation() {
             <h2 className="text-center">OUR INSIGHT</h2>
 
            
-            <div className="container padding-section">
+            <div className="container section46">
                 <div className="row">
-                    <div className="col-3 ">
+                    <div className="col-3">
                     <img src="/intelligentautomationimages/demo.png" alt="demo" className="image-section-box"/>
                         <div className="section-text strong-text">Automate &amp; Optimize your IT Operations</div>
                         <p className="paragraph-section">TACTiX platform from AQT enables automation of processes in order to reduce manual effort and accelerate efficiency</p>
@@ -101,10 +109,10 @@ function intelligent_automation() {
 
 
             {/* <!-- #UNLOCKEXPERIENCES FOR A CONNECTED FUTURE  Starts --> */}
-            <section className="section-box">
+            <section className="section-box section47">
                 <div className="container">
                     <div className="row">
-                        <div className="col-5">
+                        <div className="col-6">
                             <h3 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                             <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -120,7 +128,7 @@ function intelligent_automation() {
 
 
                         </div>
-                        <div className="col-5 section1">
+                        <div className="col-6 section1">
 
                             <img src="/intelligentautomationimages/section3.jpg" alt="section3" />
                         </div>
