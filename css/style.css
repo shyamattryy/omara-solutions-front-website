@@ -24167,3 +24167,22 @@ body {
 }
 
 
+  /* .slick-slider.slick-initialized img {
+      height: 500px;
+  }
+  .col-4.omra-leadership img {
+    height: 600px;
+  } */
+
+  .col-6 .slick-slider.slick-initialized img {
+    border-style: none;
+    height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.col-4.omra-leadership img {
+  border-style: none;
+  height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
