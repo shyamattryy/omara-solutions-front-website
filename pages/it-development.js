@@ -4,7 +4,7 @@ import Footer from "./../layout/footer";
 import Link from "next/link";
 // import "../css/skin/skin-1.css";
 
-function intelligent_automation() {
+function it_development() {
     return (
         <>
             <Header2 />
@@ -144,6 +144,6 @@ function intelligent_automation() {
         </>
     );
 }
-export default intelligent_automation;
+export default it_development;
 
 

@@ -24010,9 +24010,8 @@ body {
 }
 
 .section-box {
-  
-    padding: 56px;
-    margin-left: -39px;
+  padding: 22px 15px;
+  margin-left: -39px;
 }
 
 
@@ -24028,7 +24027,7 @@ body {
 
 .strong-text {
   font-weight: bold;
-  padding: 15px;
+  margin: 22px -3px;
 }
 
 .box-section {
@@ -24144,11 +24143,12 @@ body {
   font-size: 15px;
   line-height: 1.5em;
 }
-.image-section-box{
-  height: 200px;
-  
-  width: 238px;
+
+  .image-section-box {
+    height: 162px;
+    width: 159px;
 }
+
 .paragraph-section{
     margin-top: 27px;
     margin-bottom: 2rem;
