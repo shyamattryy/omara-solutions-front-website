@@ -100,12 +100,12 @@ function Header2() {
                                             <i className="fa fa-chevron-down"></i>
                                         </a>
                                         <ul className="sub-menu">
-                                            <li><Link href="/about-us-2"><a>It Development</a></Link></li>
-                                            <li><Link href="/faq-2"><a>Voice Blend Process</a></Link></li>
-                                            <li><Link href="/pricing-table-2"><a>Hire Developers</a></Link></li>
-                                            <li><Link href="/team-2"><a>Resource Management</a></Link></li>
-                                            <li><Link href="/coming-soon"><a>E-Commerce Product Uploading</a></Link></li>
-                                            <li><Link href="/error-404"><a>Digital Marketing</a></Link></li>
+                                            <li><Link href="/it-development"><a>It Development</a></Link></li>
+                                            <li><Link href="/voiceblend-process"><a>Voice Blend Process</a></Link></li>
+                                            <li><Link href="/hire-developers"><a>Hire Developers</a></Link></li>
+                                            <li><Link href="/resources-management"><a>Resource Management</a></Link></li>
+                                            <li><Link href="/ecommerce-product-uploading"><a>E-Commerce Product Uploading</a></Link></li>
+                                            <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li>
                                             
                                         </ul>
                                     </li>

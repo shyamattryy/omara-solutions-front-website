@@ -1,6 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Image from "next/image";
+import Link from "next/link";
 function HomeSlider() {
     return (
         <div>
@@ -21,7 +22,7 @@ function HomeSlider() {
                                     <h2>Enabling Business Transformation</h2>
                                     <p>To be agile, intuitive, and transparent to stay competitive, through our radical Solutions</p>
                                     {/* <a href="#" ><span>Button</span><i></i></a> */}
-                                     <a href="#" ><span>Know More</span><i></i></a>
+                                     <a href="/enabling-business-transformation" ><span>Know More</span><i></i></a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +41,7 @@ function HomeSlider() {
                                 <div className="slidertextblock">
                                     <h2>Our Partner Eco System</h2>
                                     <p>To Provide our Clients with the best to scale their business with our cutting-edge ideas</p>
-                                    <a href="#" ><span>Know More</span><i></i></a>
+                                    <a href="/our-partner-ecosystem" ><span>Know More</span><i></i></a>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +60,7 @@ function HomeSlider() {
                                 <div className="slidertextblock">
                                     <h2>A Global Leader in Outsourced B2B & B2C Sales</h2>
                                     <p>To deliver the best run, in Sales & Marketing programs with our appropriate sales methodologies</p>
-                                    <a href="#" ><span>Know More</span><i></i></a>
+                                    <a href="/third-knowmore" ><span>Know More</span><i></i></a>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +80,7 @@ function HomeSlider() {
                                     <h2>Lets Help Technology, to Navigate Your Next</h2>
                                     <p>We can suggest the robust & relevant technology that can bring your business to a supreme level
                                     </p>
-                                    <a href="#" ><span>Know More</span><i></i></a>
+                                    <a href="fourth-knowmore" ><span>Know More</span><i></i></a>
                                 </div>
                             </div>
                         </div>
