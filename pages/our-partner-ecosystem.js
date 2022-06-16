@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import Header2 from "./../layout/header-2";
-import Footer from "./../layout/footer";
+import Header2 from "../layout/header-2";
+import Footer from "../layout/footer";
 import Link from "next/link";
 //import Styles from "../scss/abstract/thought-leadership.css";
 

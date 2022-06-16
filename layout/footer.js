@@ -48,11 +48,11 @@ function Footer() {
 
                                     </div>
                                     <div class="socail">
-                                        <a target="_blank" class="fa fa-facebook" aria-hidden="true" href="https://www.facebook.com"></a>
-                                        <a target="_blank" class="fa fa-twitter" aria-hidden="true" href="https://twitter.com"></a>
-                                        <a target="_blank" class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com"></a>
+                                        <a target="_blank" class="fa fa-facebook" aria-hidden="true" href="https://www.facebook.com/omrasolution"></a>
+                                        <a target="_blank" class="fa fa-twitter" aria-hidden="true" href="https://twitter.com/SolutionsOmra"></a>
+                                        <a target="_blank" class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/company/omra-solutions"></a>
                                         <a target="_blank" class="fa fa-youtube-play" aria-hidden="true" href="https://www.youtube.com"></a>
-                                        <a target="_blank" class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com"></a>
+                                        <a target="_blank" class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/omra.digitalsolution/"></a>
                                     </div>
 
                                 </div>
@@ -62,7 +62,7 @@ function Footer() {
                     </div>
                 </div>
                 <hr />
-                <p className='text-center'>Copyright © 2021 Omra Solutions. All rights reserved.
+                <p className='text-center'>Copyright © 2022 Omra Solutions. All rights reserved.
                 </p>
                 {/* <!-- footer bottom part --> */}
                 {/* <div className="footer-bottom wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">

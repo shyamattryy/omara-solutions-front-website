@@ -75,7 +75,7 @@ const renderArrows = () => {
                     <div className="">
                        
                         <div className="slider">
-                            <img src="/images/background/terra.jpg" alt="" />
+                            <img src="/images/background/HRM.jpg" alt="" />
                         
                         <div className="omra-slider ">
                         <div className="col-6">
@@ -100,7 +100,7 @@ const renderArrows = () => {
                      <div className="">
                        
                        <div className="slider">
-                           <img src="/images/background/home-terra-carta.jpg" alt="" />
+                           <img src="/images/background/e-laundary.jpeg" alt="" />
                        
                        <div className="omra-slider ">
                        <div className="col-6">
@@ -125,7 +125,7 @@ const renderArrows = () => {
                     <div className="">
                        
                        <div className="slider">
-                           <img src="/images/background/home-terra-carta.jpg" alt="" />
+                           <img src="/images/background/crm.jpeg" alt="" />
                        
                        <div className="omra-slider ">
                        <div className="col-6">

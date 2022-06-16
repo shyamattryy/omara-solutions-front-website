@@ -39,7 +39,7 @@ function Index2() {
         {/* <Counter2 /> */}
         {/* <Thirdsection /> */}
         <Secondsec />
-        <AboutUs2 />
+        {/* <AboutUs2 /> */}
         <Fourthsection />
         <Leadership />
         {/* <OurServices2 />
