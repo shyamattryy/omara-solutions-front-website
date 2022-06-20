@@ -36,7 +36,7 @@ function it_development() {
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                            <h4 className="section-box-top"> IT DEVELOPMENT </h4>
+                            <h4 className="section-box-top "> IT DEVELOPMENT </h4>
                             <p className="paragraph-section">OMRA Solutions is top-notch and premier IT Development Company in India. With complete client contentment in mind, we are deeply committed to producing extremely interesting mobile apps that rigorously satisfy corporate needs and cater to a wide range of mobile application development projects.</p>
                             {/* For Button*/}
                             <div className="slidertextblock">
@@ -80,14 +80,14 @@ function it_development() {
                 <div className="container">
                     <div className="row">
                         <div className="">
-                            <h3>WHY CHOOSE US TO HIRE DEVELOPERS?</h3>
+                            <h3 className="gradient-color">WHY CHOOSE US TO HIRE DEVELOPERS?</h3>
                             <p className="paragraph-box">
                             From app conceptualization to development, we cover the entire mobile app development cycle, regardless of the diversity and complexity of your project requirements. Our confidence in delivering high-quality mobile app development services stems from our dedicated team of mobile app developers who have rich experience in global app solution services and product engineering industries. We, at OMRA Solutions, endeavor to streamline business workflow, integrate critical functions into one seamless pattern, and increase your business productivity.
 
                             </p>
                             <p>Our team of dedicated developers can build exceptional applications across a breadth of devices including desktop, mobile, and tablet. With the help of our industry expertise, we are able to give the end-user the best application experience across multiple channels. Our dedicated team of expert developers can help scale up your business and take projects to the next level without hiring, training & retention issues.</p>
                             <p>We are serving mobile application development services that identify the gap and opportunities, and craft mobile and IT-based solutions that help you disrupt, attain efficiency & accelerated business performance.</p>
-                            <h3>WHY CHOOSE US FOR YOUR IT DEVELOPMENT?</h3><ul className="bullets space-section">
+                            <h3  className="gradient-color">WHY CHOOSE US FOR YOUR IT DEVELOPMENT?</h3><ul className="bullets space-section">
                                 <li>Your development solutions need to be Well Programmed, Structured-, and commented code.</li>
                                 <li>Your idea needs to be User-centric- We at OMRA Solutions do it to engage, retain and convert.</li>
                                 <li>CWe develop it with security protocols and guidelines.</li>
@@ -120,7 +120,7 @@ function it_development() {
                 </div>
             </section>
             {/* <!-- OUR INSIGHT Starts --> */}
-            <h2 className="text-center">OUR INSIGHT</h2>
+            <h2 className="text-center gradient-color">OUR INSIGHT</h2>
 
 
             <div className="container section46">
@@ -155,7 +155,7 @@ function it_development() {
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                            <h3 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                            <h3  className="gradient-color"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                             <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.

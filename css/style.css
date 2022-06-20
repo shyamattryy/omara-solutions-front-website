@@ -11600,7 +11600,9 @@ h6,
     padding: 19px 0px;
 }
 
-
+/* h4 .h4{
+  color: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+} */
 ul {
   padding: 0;
   margin: 0;
@@ -18883,6 +18885,9 @@ ul.primary li:before {
   font-family: sans-serif !important;
   font-weight: 600;
   letter-spacing: 2px;
+  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -22912,14 +22917,25 @@ a.linkBtn span {
   padding: 157px 126px;
 }
 
-.omra-slider p {
+/* .omra-slider p {
   font-size: 30px;
   color: #fff;
   font-weight: 700;
   font-family: sans-serif !important;
 
+} */
+.omra-slider-p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif !important;
+  border: 4px solid #fff;
+  height: 189px;
+  padding: 23px 20px;
+  margin-bottom: 148px;
+  margin-top: -22px;
+  margin-left: 64px;
 }
-
 /* .omra-slider a{
   border: 2px solid #fff;
   padding: 12px 40px;
@@ -23320,11 +23336,13 @@ a.linkBtn span {
 
   [class*=leader_leaderheading__3lgac] {
     font-size: 36px !important;
+    
   }
 
   h1.leader_leaderheading__3lgac {
     font-size: 36px !important;
     left: 8px;
+    
   }
 
   p.leader_leaderpara__2uIkn {
@@ -23395,6 +23413,7 @@ a.linkBtn span {
 .slidertextblock>a {
   position: relative;
   background: #fff;
+  /* background:linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35); */
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -23546,7 +23565,9 @@ a.linkBtn span {
 
 
 
-
+.slidertextblock1 {
+  padding-top: 37px;
+}
 
 
 
@@ -23564,6 +23585,11 @@ a.linkBtn span {
   transition: 0.5s;
 }
 
+slidertextblock1_a
+{
+margin-top: 20px;
+
+}
 @media only screen and (max-width: 767px) {
   .slidertextblock1>a {
     display: none;
@@ -24116,6 +24142,21 @@ body {
 .section-box-top {
   padding-left: 3px;
   font-size: 29px;
+  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-color: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35); */
+  
+}
+
+ .section-box-top h4{
+  padding-left: 3px;
+  font-size: 29px;
+  background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-color: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35); */
+ /* color:red ; */
 }
 
 .padding-section {

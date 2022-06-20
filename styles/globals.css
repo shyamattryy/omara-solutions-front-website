@@ -177,7 +177,7 @@
     top: 30%;
   }
   .slider-texto h5{
-      color: #fff;
+      color:  linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
       font-weight: 700;
       font-size: 34px;
       font-family: sans-serif!important;
@@ -308,3 +308,63 @@ p.leader_leaderpara__2uIkn a {
 }
 
 .formsection .form-control {border-radius: 0px !important;background: #000  !important;border-bottom: 1px solid #4d4d4d;}
+
+
+
+.new-about-section{
+
+ 
+        background-image: url(/intelligentautomationimages/blockchain-banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+
+}
+
+.new-about-section .content {
+    position: absolute;
+    top: 116px;
+    left: 706px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 40%;
+    padding: 20px;
+    height: 299px;
+  }
+
+.new-about-section1{
+
+    background-image: url(/intelligentautomationimages/notebook.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.new-about-section1 .content1 {
+    position: absolute;
+    top: 116px;
+    left: 6px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 40%;
+    padding: 20px;
+    height: 299px;
+  }
+
+
+  .gradient-color{
+
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+    }

@@ -5,7 +5,7 @@ import Link from "next/link";
 function HomeSlider() {
     return (
         <div>
-            <Carousel className="homeSlidr" autoPlay={true} infiniteLoop={true} interval={5000}>
+            <Carousel className="homeSlidr" autoPlay={true} infiniteLoop={true} interval={1700}>
                 <div className="slider-image1"
                     style={{
                         backgroundImage: "url('/images/sliderimages/butterfly1.jpg')",

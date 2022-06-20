@@ -59,7 +59,7 @@ margin-bottom:30px;
  .banner-title {
     font-size: 45px;
     font-weight: 900;
-    color: #fff;
+    color: #fff !important;
     padding-top: 197px;
     padding-left: 30px;
 }

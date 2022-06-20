@@ -28,7 +28,7 @@ function hire_developers() {
             <section>
                 <div className="image-section1">
                     <div className="container">
-                        <h1 className="banner-title">#UNLOCKEXPERIENCES WITH AI </h1>
+                        <h1 className="banner-title ">#UNLOCKEXPERIENCES WITH AI </h1>
                         <p>Deliver superior experiences through intelligent automation, with AQT</p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function hire_developers() {
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                           <h3>Hire Developers</h3>
+                           <h3  className="gradient-color">Hire Developers</h3>
                             <p className="paragraph-section">Hire dedicated developers & programmers team, passionate about taking your business ideas to the next level exceeding the quality benchmark. We Are An Expert Software Development Company And Use The Best Technologies And Platforms To Deliver High-Quality Products. A reliable and robust backend forms the backbone of any website or application. Our developers have extensive knowledge and experience to develop strong and highly secure backend support for your business solution. Our dedicated developers can effortlessly manage any size of user’s data or the number of users without an error. Our expert backend developers can ensure a safe, trustworthy, and sound backend for your mobile app or website. </p>
                             {/* For Button*/}
                             <div className="slidertextblock">
@@ -83,7 +83,7 @@ function hire_developers() {
                 <div className="container">
                     <div className="row">
                         <div className="">
-                            <h3>WHY CHOOSE US TO HIRE DEVELOPERS?</h3>
+                            <h3  className="gradient-color">WHY CHOOSE US TO HIRE DEVELOPERS?</h3>
                             <p className="paragraph-box">
                                 As the pace, scale, and impact of technological innovation and disruption have exponentially escalated, technology has become a primary influence on business strategy, strategic choices, and value-creation models. Five technology-driven forces add to the already complex range of decisions facing the C-suite and other business leaders:
 
@@ -104,7 +104,7 @@ function hire_developers() {
                             </ul>
                             <p className="paragraph-box">In server scripting, our back-end developers ensure that the servers are fast and satisfy the project needs. With knowledge of all the latest tools & technologies, our back-end developers provide error-free server scripting services.</p>
 
-                            <h3>Wondering Why You Should Hire App Developers From Us?</h3>
+                            <h3  className="gradient-color">Wondering Why You Should Hire App Developers From Us?</h3>
                             <p className="paragraph-box">In case you are looking for a professional and cost-effective app development approach. In that case, hiring OMRA Solutions Developers can provide you with the exemplary service you seek. App developers for Hire are one of the services where there is massive demand. The Privileges Of Our Hiring App Developers Are Many, And A Few Are!</p>
                         </div>
 
@@ -126,9 +126,9 @@ function hire_developers() {
 
                                 </ul>
                                 <p className="paragraph-box">When the Developers are for hire, the developers are ready to work according to your time zone. It doesn’t matter which part of the world you are in; your app developers will be available anytime around the clock. They are determined to work best and open at your favorite time, despite the time zone variations.</p>
-                                    <h3>We Are Here To Help You to Hire the Developers for You</h3>
+                                    <h3  className="gradient-color">We Are Here To Help You to Hire the Developers for You</h3>
                                     <p className="paragraph-box">Why take the risk when you can start with small investments? If you are a beginner, Developers for Hire are the best solution for you. You can get your app from an expert for a reasonable price. Hire web app developers, programmers according to a need-based model allowing businesses to scale teams. With our different hire models, you can focus on your core business activities. You can hire web developers, programmers for project or product development without worrying about overhead costs associated with training, infrastructure, and other costs. Facts are only mirrors until they are backed by statistics; our expert team of web developers has successfully deployed thousands of custom web applications. We are the company to hire developers in Delhi.</p>
-                                        <h3>Expertise of Our Web Developers</h3>
+                                        <h3  className="gradient-color">Expertise of Our Web Developers</h3>
                                         <p className="paragraph-box">We have talent pool with extensive experience, our web developers working on technology stacks for winning results. Our experienced web developers leverage the power of Open Source technologies to build custom web applications, especially for your business. We offer expert web developers in technologies such as PHP frameworks (Code Igniter and Larval) as well as Magneto, and more.</p>
                                    
                           
@@ -137,7 +137,7 @@ function hire_developers() {
                 </div>
             </section>
             {/* <!-- OUR INSIGHT Starts --> */}
-            <h2 className="text-center">OUR INSIGHT</h2>
+            <h2 className="text-center  gradient-color">OUR INSIGHT</h2>
 
 
             <div className="container section46">
@@ -172,7 +172,7 @@ function hire_developers() {
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                            <h3 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                            <h3  className="gradient-color"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                             <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Styles from "../scss/contact-page/contact.module.scss";
 import axios from "axios";
+import Footer from "./../layout/footer";
 import { useEffect, useState } from "react";
 import { sendData } from "next/dist/next-server/server/api-utils";
 
@@ -130,7 +131,7 @@ return (
             <div className="container">
                 <div className="row">
                     <div className="col-6">
-                        <h2>Latitude & Longitude<br></br>
+                        <h2  className="gradient-color">Latitude & Longitude<br></br>
                             Connected in 90+ Countries</h2><br></br>
                         <p>Explore our service offerings and subsidiaries in specific geography.</p>
                     </div>
@@ -161,7 +162,7 @@ return (
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
-                            <h3>Connect With Us</h3>
+                            <h3  className="gradient-color">Connect With Us</h3>
                             <div className={` ${Styles.subheading}`}><p>Got a query? Kindly fill in the form and we shall get back to you.</p></div>
                         </div>
                         <div className="col-6"></div>
@@ -250,7 +251,9 @@ return (
                 </div>
 
             </div>
+            
         </div>
+        <Footer /> 
     </>
 )
 }

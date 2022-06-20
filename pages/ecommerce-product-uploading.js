@@ -82,7 +82,7 @@ function ecommerce_product_uploading() {
                 <div className="container">
                     <div className="row">
                         <div className="">
-                            <h3>WHY CHOOSE US TO HIRE DEVELOPERS?</h3>
+                            <h3  className="gradient-color">WHY CHOOSE US TO HIRE DEVELOPERS?</h3>
                             <p className="paragraph-box">
                                 As the pace, scale, and impact of technological innovation and disruption have exponentially escalated, technology has become a primary influence on business strategy, strategic choices, and value-creation models. Five technology-driven forces add to the already complex range of decisions facing the C-suite and other business leaders:
 
@@ -113,7 +113,7 @@ function ecommerce_product_uploading() {
 
                        
                         <p className="paragraph-box">The Process Of Adding Any New Merchant’s Services Or Products Over The Internet And Payment Gateway System So That Merchants Can Access Their Complete Process Digitally Also Is Known As a Merchant On boarding.</p>
-                           <h3>Why Choose Us?</h3>
+                           <h3  className="gradient-color">Why Choose Us?</h3>
 
                             <p className="paragraph-box">We Have Quality Experience To Handle Process And In-House It Development To Complete Your Needs. We, OMRA Solutions, Are Leading Organizations To Create A Digital Catalogue Of Merchants, and SMEs To Promote Their Products As Digital Catalogues. We Are Developing A Website & On boarding The Complete Product/Services Of Merchants To Make The Possibility Of More Opportunities For Their Online Business. The Digital Catalogue, A Unique Concept & Value Addition For Any Brand, Merchant, SMEs For Connectivity Of Buyers & Sellers.</p>
 
@@ -127,7 +127,7 @@ function ecommerce_product_uploading() {
 
                                 </ul>
 
-                                <h3>Quality Experience to On-Board Merchant</h3>
+                                <h3  className="gradient-color">Quality Experience to On-Board Merchant</h3>
                                 <ul className="bullets space-section">
                                     
                                     <li>Own Developed Software As A Service (Saas) Based Product For Enterprises Segment.</li>	
@@ -155,7 +155,7 @@ function ecommerce_product_uploading() {
                 <div className="container">
                     <div className="row">
                         <div className="">
-                            <h3>What Do We Do To Create Your Business Catalogue?</h3>
+                            <h3  className="gradient-color">What Do We Do To Create Your Business Catalogue?</h3>
                             <p className="paragraph-box">
                             Our Catalogue Creating Services Are Designed To Attract Customers Regardless Of The Product Or Service Category Being Sold. As A Part Of Catalogue Creation, We Add Product/Service Descriptions; Optimize Product Images In Best Possible Resolutions, And Index And Update Products Effectively To Increase Consumer Search Ability.
 
@@ -168,7 +168,7 @@ function ecommerce_product_uploading() {
                 </div>
             </section>
 {/* <!-- OUR INSIGHT Starts --> */}
-<h2 className="text-center">OUR INSIGHT</h2>
+<h2 className="text-center gradient-color">OUR INSIGHT</h2>
 
 
 <div className="container section46">
@@ -203,7 +203,7 @@ function ecommerce_product_uploading() {
     <div className="container">
         <div className="row">
             <div className="col-6">
-                <h3 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                <h3  className="gradient-color"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                 <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.

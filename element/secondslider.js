@@ -4,7 +4,7 @@ import Image from "next/image";
 function SecondSlider(){
     return(
 <div>
-<Carousel  autoPlay={true} infiniteLoop={true} interval={5000} slidesToScroll={1} className="homeSlider secSlider" >
+<Carousel  autoPlay={true} infiniteLoop={true} interval={1700} slidesToScroll={1} className="homeSlider secSlider" >
                     <div className="slider-image" style={{
                     backgroundImage:"url('/images/background/AdobeStock_257675510.jpeg')",
                     width: "100%",backgroundRepeat: "no-repeat",backgroundSize: "cover" }} >

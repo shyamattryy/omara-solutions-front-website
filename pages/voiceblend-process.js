@@ -82,7 +82,7 @@ function voiceblend_process() {
                 <div className="container">
                     <div className="row">
                         <div className="">
-                            <h3>OMRA SOLUTIONS ARE PROCESS-ORIENTED ORGANIZATION. WE ARE CERTIFIED BY ISO 9001:2015</h3>
+                            <h3  className="gradient-color">OMRA SOLUTIONS ARE PROCESS-ORIENTED ORGANIZATION. WE ARE CERTIFIED BY ISO 9001:2015</h3>
                             <p className="paragraph-box">
                             We have a complete setup and experienced team to understand and execute any back-end sales process.
 
@@ -92,7 +92,7 @@ function voiceblend_process() {
                                 
                             </ul>
                             <p className="paragraph-box">We have great experience in voice & on-field sales process. We, OMRA Solutions are a leading organization in the space of IT and have on the team to handle every sales operation with the help of automation. One can easily understand our experience by knowing the point that, we are handling Back-end sales process for Trade India, Stars Tell and other renowned brands. We are one of the best companies For Voice Blend Process in Delhi/NCR.</p>
-                           <h3>HOW WE DO IT?</h3> 
+                           <h3  className="gradient-color">HOW WE DO IT?</h3> 
                            <ul className="bullets space-section">
                                 <li>First, we understand the customer</li>
 
@@ -131,7 +131,7 @@ function voiceblend_process() {
                                     <p className="paragraph-box">At OMRA Solutions, we have 06 years of demonstrated experience in offering high-quality, cost-effective, and secure voice blend services to clients, helping them optimize operations, increase business efficiency and boost the bottom line, all this while improving the customer’s experience and the perception of client brand. This approach has benefited a lot of our clients across the globe. We offer seamless inbound & outbound services that are customized to specific client requirements while ensuring compliance with industry-followed quality and security standards. Our strategy for the voice blend process supports the entire customer lifecycle.</p>
                                         <p className="paragraph-box">Let us take care of your customers – We take a multi-channel approach that empowers customers to interact with your brand via any media channel, any device, anywhere with a personalized, effortless, and consistent customer experience throughout their journey. Our support channels include Phone, Chat, and Email.
 .</p>
-                                       <h3>Collaborating with us:</h3>
+                                       <h3  className="gradient-color">Collaborating with us:</h3>
                                         <p className="paragraph-box">With our high focus on employee engagement and attrition levels lower than the industry, we know the importance of putting both employees and customers first. We, OMRA Solutions are one of the best companies For the Voice Blend Process in Delhi/NCR. We Assist members with their Queries, Requests, and Complaints related to their Online and In-Store Shopping experience. We make outbound calls to existing members of the client and help boost their sales by procuring new orders from them and executing them in coordination with their fulfillment sales. We have 5+ years of demonstrated experience in offering high quality, cost-effective and secure back-office services to client’s helping them optimize operations, increase business efficiency and boost the bottom line, all this while improving the customer’s experience and the perception of the client brand. This approach has benefited lots of our clients across the globe.</p>
                                         <p className="paragraph-box">We offer seamless back-office services that are customized to specific client requirements while ensuring compliance with industry-followed quality and security standards. Our back-office strategy supports the entire customer lifecycle. </p>
                                         <h3>The benefits of collaborating with us:</h3>
@@ -147,7 +147,7 @@ function voiceblend_process() {
                 </div>
             </section>
 {/* <!-- OUR INSIGHT Starts --> */}
-<h2 className="text-center">OUR INSIGHT</h2>
+<h2 className="text-center  gradient-color">OUR INSIGHT</h2>
 
 
 <div className="container section46">
@@ -182,7 +182,7 @@ function voiceblend_process() {
     <div className="container">
         <div className="row">
             <div className="col-6">
-                <h3 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                <h3  className="gradient-color"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                 <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.

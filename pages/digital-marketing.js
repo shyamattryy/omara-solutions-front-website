@@ -38,7 +38,7 @@ function digital_marketing() {
     <div className="container">
         <div className="row">
             <div className="col-6">
-                <h4 className="section-box-top"> Experiences Begin with Smarter Processes</h4>
+                <h4 className="section-box-top  gradient-color"> Experiences Begin with Smarter Processes</h4>
                 <p className="paragraph-section">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
                 {/* For Button*/}
                 <div className="slidertextblock">
@@ -64,7 +64,7 @@ function digital_marketing() {
             </div>
             <div className="col-6">
                 <div className="section-text">
-                    <h4> Experiences Begin with Smarter Processes</h4>
+                    <h4  className="gradient-color"> Experiences Begin with Smarter Processes</h4>
                     <p className="paragraph-section">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
                     {/* For Button*/}
                     <div className="slidertextblock">
@@ -80,7 +80,7 @@ function digital_marketing() {
 </section>
 
 {/* <!-- OUR INSIGHT Starts --> */}
-<h2 className="text-center">OUR INSIGHT</h2>
+<h2 className="text-center  gradient-color">OUR INSIGHT</h2>
 
 
 <div className="container section46">
@@ -115,7 +115,7 @@ function digital_marketing() {
     <div className="container">
         <div className="row">
             <div className="col-6">
-                <h3 > Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                <h3  className="gradient-color"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                 <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.

@@ -78,12 +78,12 @@ const renderArrows = () => {
                             <img src="/images/background/HRM.jpg" alt="" />
                         
                         <div className="omra-slider ">
-                        <div className="col-6">
-                                <p>Oamra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
-                                <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
+                        <div className="col-6 omra-slider-p">
+                               <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
+                               <div className="slidertextblock1 slidertextblock1_a">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                              <i></i></a>
                                 </div>
-                            </div>
+                           </div>
                         </div>
                            
                              
@@ -103,7 +103,7 @@ const renderArrows = () => {
                            <img src="/images/background/e-laundary.jpeg" alt="" />
                        
                        <div className="omra-slider ">
-                       <div className="col-6">
+                       <div className="col-6 omra-slider-p" >
                                <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
                                <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                              <i></i></a>
@@ -128,7 +128,7 @@ const renderArrows = () => {
                            <img src="/images/background/crm.jpeg" alt="" />
                        
                        <div className="omra-slider ">
-                       <div className="col-6">
+                       <div className="col-6 omra-slider-p">
                                <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
                                <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                              <i></i></a>
@@ -142,12 +142,12 @@ const renderArrows = () => {
                           
                    </div>
                 </div>
-                <div
+                {/* <div
                     className="item wow fadeInUp"
                     data-wow-duration="2s"
-                    data-wow-delay="0.6s"
-                >
-                     <div className="">
+                    data-wow-delay="0.6s" */}
+                {/* > */}
+                     {/* <div className="">
                        
                        <div className="slider">
                            <img src="/images/background/home-terra-carta.jpg" alt="" />
@@ -165,8 +165,8 @@ const renderArrows = () => {
                        </div>
                        
                           
-                   </div>
-                </div>
+                   </div> */}
+                {/* </div> */}
             </Slider>
             {renderArrows()}
             </div>
