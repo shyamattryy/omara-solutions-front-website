@@ -6,7 +6,7 @@ function BlogSlider({data}) {
     const [asd, setAsd] = useState();
     const [blogsData,setblogsData]=useState([])
     useEffect(() => {
-        fetch('http://securewasteservices.com/wp-json/wp/v2/posts')
+        fetch('https://newblog.omrasolutions.com/wp-json/wp/v2/posts')
           .then((res) => res.json())
           .then((data) => {
             setblogsData(data);
@@ -81,6 +81,7 @@ function BlogSlider({data}) {
                 {...settings} 
                 >
                      {blogs.map(item=>{
+                        console.log({"amit":item})
                             return(
                     <div
                         className="item wow fadeInUp"
@@ -92,7 +93,7 @@ function BlogSlider({data}) {
                             <Link href="blog-details-1"><a>
                                     <img
                                         // src="images/blog/blog-grid-1/pic3.jpg"
-                                        src={item.jetpack_featured_media_url}
+                                        src={item.guid.rendered}
                                         alt=""
                                     />
                                 </a></Link>

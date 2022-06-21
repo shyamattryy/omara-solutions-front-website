@@ -8,7 +8,7 @@ function HomeSlider() {
             <Carousel className="homeSlidr" autoPlay={true} infiniteLoop={true} interval={1700}>
                 <div className="slider-image1"
                     style={{
-                        backgroundImage: "url('/images/sliderimages/butterfly1.jpg')",
+                        backgroundImage: "url('/images/sliderimages/butterfly1.png')",
                         width: "100%",
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover"
@@ -29,7 +29,7 @@ function HomeSlider() {
                     </div>
                 </div>
                 <div className="slider-image1" style={{
-                    backgroundImage: "url('/images/sliderimages/GLOBE.jpg')",
+                    backgroundImage: "url('/images/sliderimages/GLOBE.png')",
                     width: "100%",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"
@@ -48,7 +48,7 @@ function HomeSlider() {
                     </div>
                 </div>
                 <div className="slider-image1" style={{
-                    backgroundImage: "url('/images/sliderimages/24.jpg')",
+                    backgroundImage: "url('/images/sliderimages/24.png')",
                     width: "100%",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"
@@ -67,7 +67,7 @@ function HomeSlider() {
                     </div>
                 </div>
                 <div className="slider-image1" style={{
-                    backgroundImage: "url('/images/sliderimages/EYE (1).jpg')",
+                    backgroundImage: "url('/images/sliderimages/EYE.png')",
                     width: "100%",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"
