@@ -132,7 +132,7 @@ return (
                 <div className="row">
                     <div className="col-6">
                         <h2  className="gradient-color">Latitude & Longitude<br></br>
-                            Connected in 90+ Countries</h2><br></br>
+                        Connected in 3+ Cities - Noida, Hyderabad, Mumbai</h2><br></br>
                         <p>Explore our service offerings and subsidiaries in specific geography.</p>
                     </div>
                     <div className="col-6"></div>
@@ -253,7 +253,7 @@ return (
             </div>
             
         </div>
-        <Footer/>
+        <Footer />
     </>
 )
 }

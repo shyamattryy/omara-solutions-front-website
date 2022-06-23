@@ -30,7 +30,7 @@ function BlogSlider({data}) {
         centerMode: false,
         slidesToShow: 3,
         draggable: true,
-        infinite: true,
+        infinite: false,
         slidesToScroll: 1,
         autoplay: true,
         speed:2000,
@@ -107,7 +107,7 @@ function BlogSlider({data}) {
                                         </a></Link>
                                 </h5>
                                 <p className="m-b0">
-                                {item.excerpt.rendered.slice(3,90)}...
+                                {item.excerpt.rendered.slice(3,200)}...
                             </p>
                                
                                 <div className="dlab-meta meta-bottom">

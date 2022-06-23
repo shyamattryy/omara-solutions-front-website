@@ -105,7 +105,7 @@ function Header2() {
                                             <li><Link href="/hire-developers"><a>Hire Developers</a></Link></li>
                                             <li><Link href="/resources-management"><a>Resource Management</a></Link></li>
                                             <li><Link href="/ecommerce-product-uploading"><a>E-Commerce Product Uploading</a></Link></li>
-                                            <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li>
+                                            {/* <li><Link href="/digital-marketing"><a>Digital Marketing</a></Link></li> */}
                                             
                                         </ul>
                                     </li>
@@ -120,12 +120,12 @@ function Header2() {
                                         </a>
                                         <ul className="sub-menu">
                                             <li><Link href="/about-us-2"><a>E-Laundry</a></Link></li>
-                                            <li><Link href="/faq-2"><a>Faq</a></Link></li>
-                                            <li><Link href="/pricing-table-2"><a>Pricing Table</a></Link></li>
-                                            <li><Link href="/team-2"><a>Team</a></Link></li>
+                                            <li><Link href="/faq-2"><a>HRMS </a></Link></li>
+                                            <li><Link href="/pricing-table-2"><a>CRM</a></Link></li>
+                                            {/* <li><Link href="/team-2"><a>Team</a></Link></li>
                                             <li><Link href="/coming-soon"><a>Coming Soon</a></Link></li>
                                             <li><Link href="/error-404"><a>Error 404</a></Link></li>
-                                            <li><Link href="/sitedown"><a>Site Down</a></Link></li>
+                                            <li><Link href="/sitedown"><a>Site Down</a></Link></li> */}
                                         </ul>
                                     </li>
                                     <li><Link href="/new-about-us"><a>About Us</a></Link></li>

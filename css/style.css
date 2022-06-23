@@ -22737,7 +22737,7 @@ footer .widget_getintuch ul li i {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #f55f8d;
+   /* background-color: #f55f8d;  */
     padding-top: 15px;
 }
 
@@ -22972,6 +22972,7 @@ a.linkBtn span {
   padding-top: 55px !important;
   padding-bottom: 40px !important;
   background-color: #000;
+  height: 100vh;
 }
 
 .theme-btn.bt-support-now {
