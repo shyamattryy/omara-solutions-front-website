@@ -244,6 +244,21 @@
 }
 
 @media only screen and (max-width: 767px){
+    #footer {
+        background: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35) !important;
+        height: 582px  !important;
+    }
+
+    .footer-terms a {
+        margin: 0 12px;
+        position: relative;
+        font-family: sans-serif;
+        line-height: 23px;
+        font-size: 12px;
+        color: #fff;
+        /* letter-spacing: -1px  !important; */
+        word-spacing: 6px  !important;
+    }
 .slider-border{
     border: 2px solid #fff;
     width: 100%;
@@ -278,7 +293,40 @@
 @media only screen and (max-width: 767px){
 .second_headingtext___BOCw p {
     font-size: 16px;
+    padding-left: 0px;
+  padding-right: 0px;
 } 
+.four_darkcoloumn__2llim.hullheight {
+    height: auto;
+}
+.four_darkcoloumn__2llim.hullheight  + section.content-inner-2.hullheight.justify-center {
+    height: auto;
+    display: inherit;
+}
+.unquie-section {
+    height: auto !important;
+}
+
+ 
+.testimonials-carousel1 .slider img {
+    width: 100%;
+}
+
+.testimonials-carousel1 .slider .omra-slider {
+    position: relative;
+    top: 0px !important;
+    left: 0px !important;
+    transform: translate(0% , 0%);
+}
+
+.testimonials-carousel1 .slider .omra-slider .col-6.omra-slider-p {
+    padding-left: 0px;
+}
+
+.testimonials-carousel1 .slider .omra-slider .col-6.omra-slider-p p {
+    text-align: left !important;
+    padding-left: 0px;
+}
 .slider-texto p{
     font-size: 16px; 
 }
@@ -368,3 +416,68 @@ p.leader_leaderpara__2uIkn a {
         -webkit-text-fill-color: transparent;
     
     }
+
+    .hullheight {
+        height:100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+
+
+    #footer {
+        background:linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35) !important;
+        height: 420px; 
+    }
+
+    @media only screen and (max-width: 767px)
+    {.new-about-section .content {
+        position: absolute;
+        top: 132px;
+        left: 33px;
+    
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 84%;
+        /* padding: 20px; */
+        height: 420px;
+        text-align: justify;
+    }
+    
+    
+    
+    .new-about-section1 .content1 {
+        position: absolute;
+        top: 132px;
+        left: 33px;
+    
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 84%;
+        padding: 4px -9px;
+        height: 420px;
+        text-align: justify;
+    }
+
+
+    .testimonials-carousel1 .slider .omra-slider .col-6.omra-slider-p {
+        height: auto;
+        padding: 0;
+        left: 0;
+        margin: 0;
+    }
+    
+    .testimonials-carousel1 .slider .omra-slider {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+}
+
+   

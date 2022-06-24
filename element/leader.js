@@ -14,13 +14,13 @@ console.log(sliderRef.current);
 
   return (
     <>
-      <section className="content-inner-2" style={{ "backgroundImage": "url(images/background/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg)", "backgroundSize": "cover", "backgroundPosition": "top center", "backgroundRepeat": "no-repeat" }}>
+      <section className="content-inner-2 hullheight justify-center" style={{ "backgroundImage": "url(images/background/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg)", "backgroundSize": "cover", "backgroundPosition": "top center", "backgroundRepeat": "no-repeat" }}>
         <div className="omra-leadersection">
           <div className="container">
 
             <div className="row">
             <div className="col-2 omra-leadership">
-                <h1 className={Styles.leaderheading}>Thought Leadership
+                <h1 className={Styles.leaderheading}>Thought leadership
                 </h1>
               </div>
               <div className="col-4 omra-leadership">

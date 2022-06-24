@@ -139,7 +139,7 @@ return (
                 </div>
             </div>
         </div>
-        <div>
+        {/* <div>
             <div className={` ${Styles.Collection} `}>
                 <div className="container">
                     <div className={` ${Styles.Collectionrow} row`}>
@@ -156,7 +156,7 @@ return (
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         <div>
             <div className={` ${Styles.Contact}`}>
                 <div className="container">

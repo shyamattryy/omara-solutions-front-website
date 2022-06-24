@@ -93,7 +93,7 @@ function BlogSlider({data}) {
                             <Link href="blog-details-1"><a>
                                     <img
                                         // src="images/blog/blog-grid-1/pic3.jpg"
-                                        src={item.guid.rendered}
+                                        src={item.jetpack_featured_media_url}
                                         alt=""
                                     />
                                 </a></Link>

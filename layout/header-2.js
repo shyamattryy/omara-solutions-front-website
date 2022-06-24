@@ -80,13 +80,7 @@ function Header2() {
                                 }`}
                                 id="navbarNavDropdown"
                             >
-                                <div className="logo-header">
-                                    <Link href="/">
-                                        <a>
-                                            <img src="images/logo-2.png" alt="" />
-                                        </a>
-                                    </Link>
-                                </div>
+                                
 
                                 <ul className="nav navbar-nav navbar">
                                    
@@ -129,12 +123,12 @@ function Header2() {
                                         </ul>
                                     </li>
                                     <li><Link href="/new-about-us"><a>About Us</a></Link></li>
-                                    <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
+                                    {/* <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
                                         <ul className="sub-menu">
                                             <li><Link href="/blog-grid-2"><a>Blog Grid</a></Link></li>
                                             <li><Link href="/blog-details-2"><a>Blog Details</a></Link></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li><Link href="/new-contact-us"><a>Contact Us</a></Link></li>
                                     
                                 </ul>

@@ -121,7 +121,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-28
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -13141,7 +13141,7 @@ section:after {
 }
 
 .section-head {
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -13774,7 +13774,7 @@ section:after {
 }
 
 .dlab-blog .dlab-title {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .dlab-blog.style-1 {
@@ -13784,7 +13784,7 @@ section:after {
 }
 
 .dlab-blog.style-1 .dlab-info {
-  padding: 30px;
+  /* padding: 30px; */
   background-color: #000;
 }
 
@@ -18881,7 +18881,7 @@ ul.primary li:before {
   padding: 10px 30px;
   display: inline-block;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 39px;
   font-family: sans-serif !important;
   font-weight: 600;
   letter-spacing: 2px;
@@ -22828,10 +22828,13 @@ footer .widget_getintuch ul li i {
 }
 
 @media only screen and (max-width: 767px) {
-  .slider-image1 {
-    height: 55vh;
-  }
-
+  .slidertextblock,.slidertextblock p {
+    text-align: center;
+}
+.slidertextblock p {
+  padding-left: 0px;
+  padding-right: 0px;
+}
   .slider-image {
     height: 70vh;
   }
@@ -23959,7 +23962,10 @@ a.linkButtun-white {
   }
 
   .site-header .main-bar {
-    margin-top: 5px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background: #000;
   }
 }
 
@@ -24138,6 +24144,12 @@ body {
   .section-box-left1 {
     padding-left: 46px;
   }
+
+  .omra-slider p {
+    font-size: 13px;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+  }
 }
 
 .section-box-top {
@@ -24228,3 +24240,4 @@ body {
   max-width: 100%;
   vertical-align: middle;
 }
+

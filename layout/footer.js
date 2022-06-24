@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
             {/* <!-- Footer --> */}
-            <footer className="site-footer style-1" id="footer" style={{ "background": "linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);height: 420px; " }}>
+            <footer className="site-footer style-1" id="footer">
                 <div className="">
                     <div className="container">
                         <div className="footer-info wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
