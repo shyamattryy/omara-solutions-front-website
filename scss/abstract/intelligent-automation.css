@@ -34,8 +34,10 @@ img.logofooter {
         height: auto;
     margin-left: 0px;
     margin-bottom: 20px;
+    margin-top: 25px;
     }
 
+  
     .section44 .row {
         flex-direction: column-reverse;
     }
@@ -45,6 +47,7 @@ img.logofooter {
         height: auto;
         padding-top: 0;
         margin-bottom: 15px;
+        margin-top: 25px;
     }
     
     .section45 .section-text {

@@ -37,9 +37,9 @@ function voiceblend_process() {
 <section className="section-box section44">
     <div className="container">
         <div className="row">
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
                 <h4 className="section-box-top"> VOICE BLEND PROCESS</h4>
-                <p className="paragraph-section">Any Voice Blend Process at an organization is a set of repeated steps that a salesperson chooses to take a prospective buyer from the very early stage of awareness to a closed sale.</p>
+                <p className="paragraph-box1">Any Voice Blend Process at an organization is a set of repeated steps that a salesperson chooses to take a prospective buyer from the very early stage of awareness to a closed sale.</p>
                 {/* For Button*/}
                 <div className="slidertextblock">
                     {/* <a href="#" ><span>Button</span><i></i></a> */}
@@ -48,7 +48,7 @@ function voiceblend_process() {
 
             </div>
             <div className="col-6 section1" >
-                <img src="/intelligentautomationimages/section1.jpg" alt="section1" />
+                <img src="/intelligentautomationimages/section1.jpg" alt="section1" voice-paragraph/>
             </div>
 
         </div>
@@ -59,13 +59,13 @@ function voiceblend_process() {
 <section className="section-box section45">
     <div className="container">
         <div className="row">
-            <div className="col-6 section2-img ">
+            <div className="col-6 section2-img voice-paragraph">
                 <img src="/intelligentautomationimages/section2.jpg" alt="section2" />
             </div>
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
                 <div className="section-text">
                    
-                    <p className="paragraph-section">We, OMRA Solutions are helping renowned brands to play a key role in revenue generation and strategic planning in their sales process. We are helping them to receive higher revenue in their business. We have the quality experience to understand the requirement of clients & pitching their products and services in a well-defined manner with detailed knowledge of products/services and they will surely achieve benefit for the same.</p>
+                    <p className="paragraph-box1">We, OMRA Solutions are helping renowned brands to play a key role in revenue generation and strategic planning in their sales process. We are helping them to receive higher revenue in their business. We have the quality experience to understand the requirement of clients & pitching their products and services in a well-defined manner with detailed knowledge of products/services and they will surely achieve benefit for the same.</p>
                     {/* For Button*/}
                     <div className="slidertextblock">
                         {/* <a href="#" ><span>Button</span><i></i></a> */}

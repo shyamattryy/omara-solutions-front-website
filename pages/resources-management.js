@@ -37,9 +37,9 @@ function resources_management() {
 <section className="section-box section44">
     <div className="container">
         <div className="row">
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
                 <h4 className="section-box-top"> Experiences Begin with Smarter Processes</h4>
-                <p className="paragraph-section">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
+                <p className="paragraph-box1">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
                 {/* For Button*/}
                 <div className="slidertextblock">
                     {/* <a href="#" ><span>Button</span><i></i></a> */}
@@ -62,10 +62,10 @@ function resources_management() {
             <div className="col-6 section2-img ">
                 <img src="/intelligentautomationimages/section2.jpg" alt="section2" />
             </div>
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
                 <div className="section-text">
                     <h4  className="gradient-color"> Experiences Begin with Smarter Processes</h4>
-                    <p className="paragraph-section">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
+                    <p className="paragraph-box1">Automation and AI results in increased business efficiency and smart processes; however, the larger picture here is all about the usage of time saved and the insights gained for crafting craft extraordinary experiences – the ones that not only are personalized, but also distinctive enough to keep customers coming back for more</p>
                     {/* For Button*/}
                     <div className="slidertextblock">
                         {/* <a href="#" ><span>Button</span><i></i></a> */}
@@ -114,9 +114,9 @@ function resources_management() {
 <section className="section-box section47">
     <div className="container">
         <div className="row">
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
                 <h3  className="gradient-color"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                <p className="paragraph-section"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <p className="paragraph-box1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>

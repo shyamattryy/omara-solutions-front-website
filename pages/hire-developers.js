@@ -37,9 +37,9 @@ function hire_developers() {
             <section className="section-box section44">
                 <div className="container">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-6 voice-paragraph">
                            <h3  className="gradient-color">Hire Developers</h3>
-                            <p className="paragraph-section">Hire dedicated developers & programmers team, passionate about taking your business ideas to the next level exceeding the quality benchmark. We Are An Expert Software Development Company And Use The Best Technologies And Platforms To Deliver High-Quality Products. A reliable and robust backend forms the backbone of any website or application. Our developers have extensive knowledge and experience to develop strong and highly secure backend support for your business solution. Our dedicated developers can effortlessly manage any size of user’s data or the number of users without an error. Our expert backend developers can ensure a safe, trustworthy, and sound backend for your mobile app or website. </p>
+                            <p className="paragraph-box">Hire dedicated developers & programmers team, passionate about taking your business ideas to the next level exceeding the quality benchmark. We Are An Expert Software Development Company And Use The Best Technologies And Platforms To Deliver High-Quality Products. A reliable and robust backend forms the backbone of any website or application. Our developers have extensive knowledge and experience to develop strong and highly secure backend support for your business solution. Our dedicated developers can effortlessly manage any size of user’s data or the number of users without an error. Our expert backend developers can ensure a safe, trustworthy, and sound backend for your mobile app or website. </p>
                             {/* For Button*/}
                             <div className="slidertextblock">
                                 {/* <a href="#" ><span>Button</span><i></i></a> */}
@@ -47,7 +47,7 @@ function hire_developers() {
                             </div>
 
                         </div>
-                        <div className="col-6 section1" >
+                        <div className="col-6 section1 voice-paragraph" >
                             <img src="/intelligentautomationimages/section1.jpg" alt="section1" />
                         </div>
 
@@ -59,13 +59,13 @@ function hire_developers() {
             <section className="section-box section45">
                 <div className="container">
                     <div className="row">
-                        <div className="col-6 section2-img ">
+                        <div className="col-6 section2-img voice-paragraph">
                             <img src="/intelligentautomationimages/section2.jpg" alt="section2" />
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 voice-paragraph">
                             <div className="section-text">
                               
-                                <p className="paragraph-section">The backend developers are well-versed in writing accurate, high-quality, and complicated codes to ensure smooth functioning. Hire our backend developers with flexible engagement models, pricing models, and work with them at your time zones. Bring your website or mobile app to life with a robust backend developed by our backend developers using the latest technologies and ensuring security. We, OMRA Solutions are one of the best companies to hire developers in Delhi/NCR. We are working globally and are excited to shake hands with you!</p>
+                                <p className="paragraph-box">The backend developers are well-versed in writing accurate, high-quality, and complicated codes to ensure smooth functioning. Hire our backend developers with flexible engagement models, pricing models, and work with them at your time zones. Bring your website or mobile app to life with a robust backend developed by our backend developers using the latest technologies and ensuring security. We, OMRA Solutions are one of the best companies to hire developers in Delhi/NCR. We are working globally and are excited to shake hands with you!</p>
                                 {/* For Button*/}
                                 <div className="slidertextblock">
                                     {/* <a href="#" ><span>Button</span><i></i></a> */}

@@ -326,6 +326,7 @@
 .testimonials-carousel1 .slider .omra-slider .col-6.omra-slider-p p {
     text-align: left !important;
     padding-left: 0px;
+    font-weight: 100;
 }
 .slider-texto p{
     font-size: 16px; 
@@ -336,6 +337,14 @@
 .m-b0{
     font-size: 16px; 
 }
+
+.gradient-color {
+    background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1px 15px;
+}
+
 }
  
 
@@ -351,6 +360,15 @@
     text-align: justify;
 }
 
+.paragraph-box1{
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+
+.voice-paragraph{
+    padding: 0px 0px;
+}
 p.leader_leaderpara__2uIkn a {
     color: white;
 }
@@ -477,7 +495,18 @@ p.leader_leaderpara__2uIkn a {
         padding-left: 0;
         padding-top: 0;
     }
-
+    .paragraph-section-voice {
+        /* margin-top: 27px; */
+        /* margin-bottom: 2rem; */
+        text-align: justify !important;
+        margin: 0px 0px 16px;
+        padding: 20px 0px 0px;
+    }
 }
 
-   
+.sectionsideimage img {
+    height: 332px;
+    margin-left: 32px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }

@@ -364,6 +364,7 @@ legend {
   white-space: normal;
 }
 
+
 progress {
   vertical-align: baseline;
 }
@@ -23323,7 +23324,7 @@ a.linkBtn span {
       flex: 0 0 100%;
       max-width: 100%;
       position: relative !important;
-      text-align: justify;
+      /* text-align: justify; */
        /*  padding-left: 64px;*/
       /* padding-right: 29px; */
   }
@@ -24037,7 +24038,12 @@ body {
   height: 332px;
   margin-left: 32px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
+
+
+
+
 .section2-img {
   height: auto;
 }
@@ -24158,6 +24164,7 @@ body {
   background-image: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 25px;
   /* background-color: linear-gradient(to right, #e62222, #e62222, #ef6d35, #ef6d35, #ef6d35); */
   
 }

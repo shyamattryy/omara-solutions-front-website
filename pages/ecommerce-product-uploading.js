@@ -37,9 +37,9 @@ function ecommerce_product_uploading() {
 <section className="section-box section44">
     <div className="container">
         <div className="row">
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
               
-                <p className="paragraph-section">Isn’t It Surprising To Know How Business Administrators Manage Their Business So Easily? It Varies From Business To Business, But During These Crucial Times Around Here, What Do You Need To Grow Your Business? In Today’s World, A Person Focuses More On The Internet & Availability Of Product/Services. This Can Build Your Online Presence and Focus On More Valuable Additions For Business As Compared To Physical. The E-commerce product upload service includes online uploading of your products according to the given categories. E-commerce product listing service includes the placing of products on the online platforms, and websites according to the specifications of products like color, shape, size, price, etc. To make it more convenient for the customers while shopping at these websites. Outsourcing product upload and product listing, to OMRA Solutions, will get desired results for your Clients.</p>
+                <p className="paragraph-box1">Isn’t It Surprising To Know How Business Administrators Manage Their Business So Easily? It Varies From Business To Business, But During These Crucial Times Around Here, What Do You Need To Grow Your Business? In Today’s World, A Person Focuses More On The Internet & Availability Of Product/Services. This Can Build Your Online Presence and Focus On More Valuable Additions For Business As Compared To Physical. The E-commerce product upload service includes online uploading of your products according to the given categories. E-commerce product listing service includes the placing of products on the online platforms, and websites according to the specifications of products like color, shape, size, price, etc. To make it more convenient for the customers while shopping at these websites. Outsourcing product upload and product listing, to OMRA Solutions, will get desired results for your Clients.</p>
                 {/* For Button*/}
                 <div className="slidertextblock">
                     {/* <a href="#" ><span>Button</span><i></i></a> */}
@@ -62,10 +62,10 @@ function ecommerce_product_uploading() {
             <div className="col-6 section2-img ">
                 <img src="/intelligentautomationimages/section2.jpg" alt="section2" />
             </div>
-            <div className="col-6">
+            <div className="col-6 voice-paragraph">
                 <div className="section-text">
                    
-                    <p className="paragraph-section">Outsource product upload and product listing work of our skilled team as they will employ their expertise and experience to make your products ranking high on the e-Commerce websites at very affordable prices. The state-of-the-art technology and proven methods at our company are used dedicatedly to increase your business efficiency. You will get access to our infrastructure, resources and equipment to expand your business in various domains, simultaneously concentrating on the core business operations. Our outsourcing e-Commerce product upload solutions will make your business customer-oriented, to bring you 100% customer satisfaction.</p>
+                    <p className="paragraph-box1">Outsource product upload and product listing work of our skilled team as they will employ their expertise and experience to make your products ranking high on the e-Commerce websites at very affordable prices. The state-of-the-art technology and proven methods at our company are used dedicatedly to increase your business efficiency. You will get access to our infrastructure, resources and equipment to expand your business in various domains, simultaneously concentrating on the core business operations. Our outsourcing e-Commerce product upload solutions will make your business customer-oriented, to bring you 100% customer satisfaction.</p>
                     {/* For Button*/}
                     <div className="slidertextblock">
                         {/* <a href="#" ><span>Button</span><i></i></a> */}
