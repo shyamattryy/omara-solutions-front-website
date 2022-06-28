@@ -24400,4 +24400,18 @@ h2 {
   -webkit-box-orient: vertical;
   padding: 0;
 }
+
+.socail {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  float: inherit;
+  clear: both !important;
+  text-align: center;
+  gap: 15px;
+}
+
+.socail a {
+  margin: 0px;
+}
 }
