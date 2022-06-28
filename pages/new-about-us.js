@@ -11,7 +11,7 @@ function new_about() {
 
 
 
-            <section className="new-about-section">
+            <section className="image-aboutnew">
                 <div class="content">
                     <h1  className="gradient-color">Heading</h1>
                     <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>

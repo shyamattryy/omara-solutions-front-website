@@ -13,7 +13,7 @@ function Secondsec() {
         <div className={`${Styles.secondsecond} row container`}>
           <div className="col-4 sec-ssldr" style={{ position: "relative", zIndex: "9", display: "flex", alignItems: 'center' }}><div className={Styles.headingtext}>
             <h2>Omra Solutions</h2>
-            <p>The changes that have been unfolding in the pandemic are not evolutionary but revolutionary. And now, we are geared to help our customers revolutionize their businesses with next-gen technologies that power our solutions. With NXT.NOW™, we are ready to Imagine the future that we can deliver on, Build solutions that are unique, and Run the systems of the tomorrow efficiently today.</p>
+            <p>We are a leading organization in the space of technology development, fulfillment the Sales processes in B2B and B2C segment. We are helping renowned brands to achieve their goals in terms of sales business operations. We are working in business process outsourcing services, Sales Process, Automation technology. We are a process oriented organization with certification of ISO 9001:2015 (Quality Management Systems).</p>
             <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
             </div>
           </div>

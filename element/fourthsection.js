@@ -9,7 +9,7 @@ import Styles from '../scss/fourth/four.module.scss'
         <div className={`${Styles.creative} col-6`}>
             <div className={Styles.headingtext}>
             <h2><span className={Styles.head_bck}> Innovative  Platforms</span> </h2>
-            <p>We (OMRA SOLUTIONS) are a leading organization in space of technology development, fulfilment the Sales processes in B2B and B2C segment. We are helping to brands for automation process, Hire developers, Resource Management and helping renowned brands to achieve their goals in terms of sales business operations. We are working in business process outsourcing services, Sales Process, Automation technology. We are process oriented organization with certification of ISO 9001:2015 (Quality Management Systems).</p>
+            <p>OMRA Solutions offer a wide range of customized software development services worldwide, we are the professional software development company based in Delhi with connecting offices in NCR serving clients from last 5 years. We have outstanding experience in custom software development, CRM, ERP and HRMS platform. We provide our clients with the exact tailor-made software solutions that will meet their specific business requirements. We do focus on Voice Blend Process as well.</p>
             <div className="slidertextblock">  <a href="#" ><span>Know More</span><i></i></a>
                             </div>
             </div>
