@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 function HomeSlider() {
     return (
-        <div>
+        <div className="home-section">
             <Carousel className="homeSlidr" autoPlay={true} infiniteLoop={true} interval={1700}>
                 <div className="slider-image1"
                     style={{

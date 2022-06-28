@@ -4,7 +4,7 @@ import Styles from '../scss/fourth/four.module.scss'
 
   function fourthsection() {
   return (
-  <div className={`${Styles.darkcoloumn} hullheight container-fluid`} style={{padding:"55px 0px !important"}}>
+  <div className={`${Styles.darkcoloumn} hullheight sectionstyle3 container-fluid`} style={{padding:"55px 0px !important"}}>
     <div className={`${Styles.fourth} row container`}>
         <div className={`${Styles.creative} col-6`}>
             <div className={Styles.headingtext}>

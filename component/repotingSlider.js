@@ -79,7 +79,7 @@ function ReportSlider() {
 
                 <div className="omra-slider ">
                   <div className="col-6 omra-slider-p">
-                    <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
+                    <p>Omra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
                     <div className="slidertextblock1 slidertextblock1_a">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                       <i></i></a>
                     </div>
@@ -104,7 +104,7 @@ function ReportSlider() {
 
                 <div className="omra-slider ">
                   <div className="col-6 omra-slider-p" >
-                    <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
+                    <p>Omra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
                     <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                       <i></i></a>
                     </div>
@@ -129,7 +129,7 @@ function ReportSlider() {
 
                 <div className="omra-slider ">
                   <div className="col-6 omra-slider-p">
-                    <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
+                    <p>Omra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
                     <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                       <i></i></a>
                     </div>
@@ -154,7 +154,7 @@ function ReportSlider() {
                        
                        <div className="omra-slider ">
                        <div className="col-6">
-                               <p>Omara Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
+                               <p>Omra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
                                <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
                              <i></i></a>
                                 </div>
