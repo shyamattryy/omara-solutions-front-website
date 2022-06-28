@@ -24332,6 +24332,7 @@ body {
 .sectionstyle3 h2 {
     padding-top: 0px;
     font-size: 36px !important;
+    text-align: center;
 }
 
 .sectionstyle3 h2 + p {
@@ -24388,4 +24389,15 @@ h2 {
       
 
 } */
+
+
+.secondsecondstyle2 .slider-texto h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding: 0;
+}
 }

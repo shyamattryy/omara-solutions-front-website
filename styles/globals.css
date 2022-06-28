@@ -418,6 +418,18 @@ p.leader_leaderpara__2uIkn a {
 
 }
 
+.new-about-section{
+
+ 
+    background-image: url(/intelligentautomationimages/blockchain-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
 .new-about-section .content {
     position: absolute;
     top: 116px;
