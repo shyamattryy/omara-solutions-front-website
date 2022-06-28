@@ -20,7 +20,7 @@ console.log(sliderRef.current);
 
             <div className="row">
             <div className="col-2 omra-leadership">
-                <h1 className={Styles.leaderheading}>Thought leadership
+                <h1 className={Styles.leaderheading}>Thought Leadership
                 </h1>
               </div>
               <div className="col-4 omra-leadership">

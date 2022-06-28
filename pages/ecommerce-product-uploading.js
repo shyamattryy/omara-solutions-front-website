@@ -26,7 +26,7 @@ function ecommerce_product_uploading() {
 <h2 className="text-center  padding-section">OUR APPROACH</h2>*/}
 
 <section>
-    <div className="image-section1">
+    <div className="image-ecom">
         <div className="container">
             <h1 className="banner-title">#UNLOCKEXPERIENCES WITH AI </h1>
             <p>Deliver superior experiences through intelligent automation, with AQT</p>
