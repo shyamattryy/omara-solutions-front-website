@@ -129,8 +129,8 @@ function ReportSlider() {
 
                 <div className="omra-slider ">
                   <div className="col-6 omra-slider-p">
-                    <p>Omra Solutions recognized amongst Global Top 100 Most Sustainable Organizations 2021 by Corporate Knights</p>
-                    <div className="slidertextblock1">  <a href="#" className='sldrr3'><span className='sldr3'>Know More</span>
+                    <p>HRMS of OMRA Solutions is a Powerful platform that will automate our HR processes and elevate HR efficiency on single modular software!</p>
+                    <div className="slidertextblock1">  <a href="hrmsknowmore" className='sldrr3'><span className='sldr3'>Know More</span>
                       <i></i></a>
                     </div>
                   </div>

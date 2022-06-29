@@ -564,7 +564,7 @@ p.leader_leaderpara__2uIkn a {
     background-size: cover;
     height:99vh;
     
-  }INNOVATIVE PLATFORMS
+  }
   .image-aboutnew{
     background-image: url("/intelligentautomationimages/aboutnew.png");
     background-position: center;
@@ -573,3 +573,56 @@ p.leader_leaderpara__2uIkn a {
     height:99vh;
     
   }
+
+  .image-hrmsknowmore{
+    background-image: url("/intelligentautomationimages/blockchain-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:99vh;
+    
+  }
+  
+  
+
+  .image-hire{
+    background-image: url("/intelligentautomationimages/hire.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:99vh;
+    
+  }
+
+  .image-it{
+    background-image: url("/intelligentautomationimages/it.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:99vh;
+    
+  }
+
+
+
+  .image-res{
+    background-image: url("/intelligentautomationimages/res.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:99vh;
+    
+  }
+
+  
+  .image-voice{
+    background-image: url("/intelligentautomationimages/voice.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:99vh;
+    
+  }
+
+
+ 
